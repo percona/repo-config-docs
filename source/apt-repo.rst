@@ -9,12 +9,12 @@ use the :command:`apt` package manager to install Percona software
 from the official repository.
 
 1. Fetch the repository package::
-
-    wget https://repo.percona.com/apt/percona-release_0.1-6.$(lsb_release -sc)_all.deb
+         
+    wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
 
 #. Install the repository package::
 
-    sudo dpkg -i percona-release_0.1-6.$(lsb_release -sc)_all.deb
+    sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
 
 #. Update local :command:`apt` cache::
 
