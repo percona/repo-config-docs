@@ -16,30 +16,15 @@ using the corresponding package manager for your system:
 
 -----
 
-Debian and Ubuntu
-=================
-
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
-   Configuring Percona Repository <apt-repo>
-   Enabling Testing and Experimental Repositories <apt-testing>
-
-Red Hat Enterprise Linux and CentOS
-===================================
-
-.. toctree::
-   :maxdepth: 1
-
-   Configuring Percona Repository <yum-repo>
-   Enabling Testing and Experimental Repositories <yum-testing>
-
-Reference
-=========
-
-.. toctree::
-   :maxdepth: 1
-
+   percona-release
    copyright
    trademark-policy
+
+..   apt-repo
+..   apt-testing
+..   yum-repo
+..   yum-testing
 
