@@ -9,8 +9,8 @@ use the :command:`yum` package manager to install Percona software
 from the official repository.
 
 1. Install the repository package::
-
-    sudo yum install http://www.percona.com/downloads/percona-release/redhat/0.1-6/percona-release-0.1-6.noarch.rpm
+                     
+    sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
 
    You should see the following if successful::
 
