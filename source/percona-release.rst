@@ -22,7 +22,7 @@ If you are running a DEB-based distribution, such as Debian or Ubuntu,
 use the :command:`apt` package manager to install the ``percona-release``
 official package:
 
-1. Fetch the repository package::
+1. Fetch the repository package:
 
    .. code-block:: bash
              
