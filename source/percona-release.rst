@@ -25,14 +25,14 @@ official package:
 1. Fetch the repository package::
 
    .. code-block:: bash
-
-      $ wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+             
+      $ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 
 #. Install the downloaded repository package with ``dpkg``
 
    .. code-block:: bash
 		   
-      $ sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
+      $ sudo dpkg -i percona-release_latest.generic_all.deb
 
 #. Once you install this package the Percona repositories should be added. You
    can check the repository setup in the
@@ -197,8 +197,8 @@ More examples: All steps for installing a specific Percona product
 
 .. code-block:: bash
 
-   $ wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
-   $ sudo dpkg -i percona-release_1.0-1.bionic_all.deb
+   $ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+   $ sudo dpkg -i percona-release_latest.generic_all.deb
    $ sudo percona-release enable-only ps-80 release
    $ sudo percona-release enable tools release
    $ sudo apt-get update
@@ -216,7 +216,7 @@ More examples: All steps for installing a specific Percona product
 
 .. code-block:: bash
 
-   $ wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+   $ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb 
    $ sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
    $ sudo percona-release setup psmdb36
    $ sudo apt-get install percona-server-mongodb-36
