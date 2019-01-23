@@ -3,7 +3,7 @@
 .. _repo-config-docs.yum-repo:
 
 ================================================================================
-Configuring Percona Repository on Debian and Ubuntu
+Configuring Percona Repository on Red Had and CentOS
 ================================================================================
 
 |page-contents-moved|: :ref:`percona-release.rpm.installing`
