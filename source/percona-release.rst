@@ -22,19 +22,47 @@ If you are running a DEB-based distribution, such as Debian or Ubuntu,
 use the :command:`apt` package manager to install the ``percona-release``
 official package:
 
+.. admonition:: Prerequisites
+
+   Running ``dpkg`` further in this procedure may fail due to unsatisfied
+   dependencies that ``dpkg`` will not resolve for you.
+
+   .. code-block:: text
+
+      dpkg: error processing package percona-release (--install):
+      installed percona-release package post-installation script subprocess returned error exit status 255
+
+   In Linux distributions that rely on ``dpkg`` the packages ``wget``,
+   ``gnupg2``, and ``lsb-release`` are already installed. However, these
+   packages may be missing from Docker base images. In this case, install them
+   manually *before running dpkg*:
+
+   .. code-block:: bash
+
+      $ sudo apt-get update
+      $ sudo apt-get install -y wget gnupg2 lsb-release
+
 1. Fetch the repository package:
 
    .. code-block:: bash
              
       $ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 
-#. Install the downloaded repository package with ``dpkg``
+#. Install the downloaded repository package with ``dpkg``:
 
    .. code-block:: bash
 		   
       $ sudo dpkg -i percona-release_latest.generic_all.deb
 
-#. Once you install this package the Percona repositories should be added. You
+   .. note::
+
+      If ``dpkg`` fails at this step due to missing dependencies, run ``apt`` as follows:
+
+      .. code-block:: bash
+
+	 $ sudo apt install --fix-broken
+
+#. Once you install this package the |Percona| repositories should be available. You
    can check the repository setup in the
    :file:`/etc/apt/sources.list.d/percona-release.list` file.
 
