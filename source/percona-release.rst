@@ -78,7 +78,8 @@ install.
       - `Percona Server for MongoDB with the apt package manager <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/apt.html>`_
       - `Percona XtraDB Cluster with the apt package manager <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/apt.html>`_
       - `Percona XtraBackup with the apt package manager <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html>`_
-
+      - `Percona Distribution for PostgreSQL with the apt package manager <https://www.percona.com/doc/postgresql/11/installing.html#using-the-deb-format>`_
+	
 .. _percona-release.rpm.installing:
 
 RPM-Based GNU/Linux Distributions
@@ -102,6 +103,7 @@ Percona product that you intend to install.
       - `Percona Server for MongoDB with the yum package manager <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/yum.html>`_
       - `Percona XtraDB Cluster with the yum package manager <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/yum.html>`_
       - `Percona XtraBackup with the yum package manager <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/yum_repo.html>`_
+      - `Percona Distribution for PostgreSQL with the yum package manager <https://www.percona.com/doc/postgresql/11/installing.html#using-the-rpm-format>`_
 
 .. _percona-release.usage:
 
@@ -143,15 +145,34 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
 
      $ sudo percona-release disable all
 
-* :option:`setup` :option:`<PRODUCT>` command  disables all current Percona
+* :option:`setup` :option:`<PRODUCT>` command disables all current Percona
   repository locations, then enables the correct release repositories given a
   *product use*, and updates the platform's package manager database.
   :option:`<PRODUCT>` is the only parameter of this command, and it can be
-  chosen from the following list: ``ps56``, ``ps57``, ``ps80``, ``psmdb34``,
-  ``psmdb36``, ``psmdb40``, ``pxb80``, ``pxc56``, ``pxc57``, ``pxc80`` (the
-  names are self explanatory). Following example will disable all Percona
-  repository locations and then enable the ``release`` repository for *Percona
-  Server for MySQL* 8.0:
+  chosen from the following list (the names of products are self-explanatory):
+
+  .. hlist::
+     columns: 2
+
+     - ``ps56``
+     - ``ps57``
+     - ``ps80``
+     - ``psmdb34``
+     - ``psmdb36``
+     - ``psmdb40``
+     - ``psmdb42``
+     - ``pxb80``
+     - ``pxc56``
+     - ``pxc57``
+     - ``pxc80``
+     - ``ppg11``
+     - ``ppg11.5``
+     - ``ppg11.6``
+
+
+  The following example disables all Percona repository locations and
+  then enable the ``release`` repository for *Percona Server for
+  MySQL* 8.0:
 
   .. code-block:: bash
 
@@ -161,19 +182,34 @@ Repository locations
 --------------------------------------------------------------------------------
 
 *Repository location* may contain two parts: a *repository* and a *component*.
-Available repositories are ``original``, ``ps-80``, ``pxc-80``, ``psmdb-40``,
-and ``tools``.
+Available repositories are:
 
-* ``original`` repository is the place to get Percona’s products of the previous
-  versions which haven’t yet reach their end of life and are still supported,
-  such as *Percona Server for MySQL* 5.6 and 5.7, *Percona XtraDB Cluster* 5.6
-  and 5.7, *Percona Server for MongoDB* 3.4 and 3.6, etc.
-* ``ps-80`` repository hosts packages for *Percona Server for MySQL* 8.0.
-* ``pxc-80`` repository is for *Percona XtraDB Cluster* 8.0 packages.
-* ``psmdb-40`` repository is hosting *Percona Server for MongoDB* 4.0
-  packages.
-* ``tools`` repository hosts all other products and tools: *Percona XtraBackup*
-  8.0, *Percona Toolkit*, *PMM Client*,  *ProxySQL*, etc.
+.. list-table::
+
+   * - Repository
+     - Product Packages
+   * - ``original``
+     - Percona’s products of previous versions which haven’t yet reach
+       their end of life and are still supported, such as *Percona
+       Server for MySQL 5.6* and *5.7*, *Percona XtraDB Cluster 5.6* and
+       *5.7*, *Percona Server for MongoDB 3.4* and *3.6* etc.
+   * - ``ps-80``
+     - Percona Server for MySQL 8.0
+   * - ``pxc-80``
+     - Percona XtraDB Cluster 8.0
+   * - ``psmdb-40``
+     - Percona Server for MongoDB 4.0
+   * - ``psmdb-42``
+     - Percona Server for MongoDB 4.2
+   * - ``ppg-11``
+     - Percona Distribution for PostgreSQL 11
+   * - ``ppg-11.5``
+     - Percona Distribution for PostgreSQL 11.5
+   * - ``ppg-11.6``
+     - Percona Distribution for PostgreSQL 11.6
+   * - ``tools``
+     - All other products and tools, such as *Percona XtraBackup 8.0*,
+       *Percona Toolkit*, *PMM Client*, *ProxySQL*, etc.
 
 Components
 --------------------------------------------------------------------------------
