@@ -121,7 +121,7 @@ Commands
 
 Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
 
-* :option:`enable` command turns on an additional Percona *repository location*.
+* ``enable`` command turns on an additional Percona *repository location*.
   For example, the following command enables the ``ps-80 release`` repository
   location:
 
@@ -129,7 +129,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
 
      $ sudo percona-release enable ps-80 release
 
-* :option:`enable-only` command turns off all Percona repository locations, and
+* ``enable-only`` command turns off all Percona repository locations, and
   enables the listed repository location after that. The following example first
   disables all Percona repository locations and then enables ``psmdb-40
   experimental``:
@@ -138,21 +138,21 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
 
      $ sudo percona-release enable-only psmdb-40 experimental
 
-* :option:`disable` disables the specified repositories (or just ``all`` of them).
+* ``disable`` disables the specified repositories (or just ``all`` of them).
   For example, following command will disable all repository locations:
 
   .. code-block:: bash
 
      $ sudo percona-release disable all
 
-* :option:`setup` :option:`<PRODUCT>` command disables all current Percona
+* ``setup`` `<PRODUCT>` command disables all current Percona
   repository locations, then enables the correct release repositories given a
   *product use*, and updates the platform's package manager database.
-  :option:`<PRODUCT>` is the only parameter of this command, and it can be
+  `<PRODUCT>` is the only parameter of this command, and it can be
   chosen from the following list (the names of products are self-explanatory):
 
   .. hlist::
-     columns: 2
+     :columns: 2
 
      - ``ps56``
      - ``ps57``
