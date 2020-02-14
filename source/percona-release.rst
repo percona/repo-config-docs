@@ -60,7 +60,7 @@ official package:
 
       .. code-block:: bash
 
-	 $ sudo apt install --fix-broken
+	 $ sudo apt-get install --fix-broken
 
 #. Once you install this package the |Percona| repositories should be available. You
    can check the repository setup in the
