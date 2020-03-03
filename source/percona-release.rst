@@ -7,6 +7,9 @@ Configuring Percona Repositories with percona-release
 The ``percona-release`` configuration tool allows users to automatically
 configure which Percona repositories are enabled and disabled.
 
+.. contents::
+   :local:
+
 Installation
 ================================================================================
 
@@ -245,7 +248,7 @@ with the ``testing`` component.
 
 This example enables installing a pre-release version of Percona Server for MySQL 8.0.
 
-More examples: All steps for installing a specific Percona product 
+Example: All steps for installing a specific Percona product 
 ================================================================================
 
 .. rubric:: Percona XtraDB Cluster 8.0 on CentOS 7:
@@ -284,6 +287,32 @@ More examples: All steps for installing a specific Percona product
    $ sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
    $ sudo percona-release setup psmdb36
    $ sudo apt-get install percona-server-mongodb-36
+
+.. _percona-release-update-latest-version:
+
+Updating |percona-release| to the Latest Version
+================================================================================
+
+|percona-release| itself is available from the *original* repository. Thus, the
+update procedure is very simple:
+
+#. Enable the *original* repository
+
+   .. code-block:: bash
+
+      $ sudo percona-release enable original
+
+#. Install the latest version using the package manager of your system:
+
+   .. code-block:: bash
+
+      # RPM-based systems
+      $ yum update percona-release
+
+   .. code-block:: bash
+
+      #DEB-based systems
+      $ apt-get install percona-release
 
 .. include:: .res/replace.program.txt
 
