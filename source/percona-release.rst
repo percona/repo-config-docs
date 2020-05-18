@@ -172,7 +172,8 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``ppg11.5``
      - ``ppg11.6``
      - ``ppg11.7``
-
+     - ``ppg12``
+     - ``ppg12.2``
 
   The following example disables all Percona repository locations and
   then enable the ``release`` repository for *Percona Server for
@@ -213,6 +214,10 @@ Available repositories are:
      - Percona Distribution for PostgreSQL 11.6
    * - ``ppg-11.7``
      - Percona Distribution for PostgreSQL 11.7
+   * - ``ppg-12``
+     - Percona Distribution for PostgreSQL 12
+   * - ``ppg-12.2``
+     - Percona Distribution for PostgreSQL 12.2
    * - ``tools``
      - All other products and tools, such as *Percona XtraBackup 8.0*,
        *Percona Toolkit*, *PMM Client*, *ProxySQL*, etc.
