@@ -175,13 +175,23 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``ppg12``
      - ``ppg12.2``
 
-  The following example disables all Percona repository locations and
-  then enable the ``release`` repository for *Percona Server for
-  MySQL* 8.0:
+  The following example disables all Percona repository locations and then
+  enables the ``release`` repository for *Percona Server for MySQL* 8.0. This
+  command runs in the interactive mode and may request extra input from you,
+  depending on your platform.
 
   .. code-block:: bash
 
      $ percona-release setup ps80
+
+  In non-interactive contexts, such as in scripts, requests for extra input may
+  halt the program.  Run the ``setup`` command with the `-y` option to provide
+  the affirmative answer where input from the user would be requested in the
+  interactive mode.
+
+  .. code-block:: bash
+
+     $ percona-release setup -y ps80
 
 Repository locations
 --------------------------------------------------------------------------------
