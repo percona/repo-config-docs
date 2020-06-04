@@ -76,12 +76,13 @@ install.
 
 .. seealso::
 
-   Installing on Debian or Ubuntu:
-      - `Percona Server for MySQL with the apt package manager <https://www.percona.com/doc/percona-server/LATEST/installation/apt_repo.html>`_
-      - `Percona Server for MongoDB with the apt package manager <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/apt.html>`_
-      - `Percona XtraDB Cluster with the apt package manager <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/apt.html>`_
-      - `Percona XtraBackup with the apt package manager <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html>`_
-      - `Percona Distribution for PostgreSQL with the apt package manager <https://www.percona.com/doc/postgresql/11/installing.html#using-the-deb-format>`_
+   Installing on Debian or Ubuntu with the apt package manager:
+      - `Percona Server for MySQL <https://www.percona.com/doc/percona-server/LATEST/installation/apt_repo.html>`_
+      - `Percona Server for MongoDB  <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/apt.html>`_
+      - `Percona XtraDB Cluster  <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/apt.html>`_
+      - `Percona XtraBackup  <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html>`_
+      - `Percona Distribution for PostgreSQL  <https://www.percona.com/doc/postgresql/11/installing.html#using-the-deb-format>`_
+      - `Percona Distribution for MongoDB <https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-debian-ubuntu>`_
 	
 .. _percona-release.rpm.installing:
 
@@ -101,12 +102,19 @@ Percona product that you intend to install.
 
 .. seealso::
 
-   Installing on Red Hat and CentOS:
-      - `Percona Server for MySQL with the yum package manager <https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html>`_
-      - `Percona Server for MongoDB with the yum package manager <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/yum.html>`_
-      - `Percona XtraDB Cluster with the yum package manager <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/yum.html>`_
-      - `Percona XtraBackup with the yum package manager <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/yum_repo.html>`_
-      - `Percona Distribution for PostgreSQL with the yum package manager <https://www.percona.com/doc/postgresql/11/installing.html#using-the-rpm-format>`_
+   Installing on Red Hat and CentOS with the yum package manager:
+      - `Percona Server for MySQL
+	<https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html>`_
+      - `Percona Server for MongoDB
+	<https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/yum.html>`_
+      - `Percona XtraDB Cluster
+	<https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/yum.html>`_
+      - `Percona XtraBackup
+	<https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/yum_repo.html>`_
+      - `Percona Distribution for PostgreSQL
+	<https://www.percona.com/doc/postgresql/11/installing.html#using-the-rpm-format>`_
+      - `Percona Distribution for MongoDB
+	<https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-red-hat-enterprise-linux-centos>`_
 
 .. _percona-release.usage:
 
@@ -172,8 +180,13 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``ppg11.5``
      - ``ppg11.6``
      - ``ppg11.7``
+     - ``ppg11.8``
      - ``ppg12``
      - ``ppg12.2``
+     - ``ppg12.3``
+     - ``pdmdb4.2``
+     - ``pdmdb4.2.6``
+     - ``pdmdb4.2.7``
 
   The following example disables all Percona repository locations and then
   enables the ``release`` repository for *Percona Server for MySQL* 8.0. This
@@ -228,6 +241,14 @@ Available repositories are:
      - Percona Distribution for PostgreSQL 12
    * - ``ppg-12.2``
      - Percona Distribution for PostgreSQL 12.2
+   * - ``ppg-12.3``
+     - Percona Distribution for PostgreSQL 12.3
+   * - ``pdmdb-4.2``
+     - Percona Distribution for MongoDB 4.2
+   * - ``pdmdb-4.2.6``
+     - Percona Distribution for MongoDB 4.2.6
+   * - ``pdmdb-4.2.7``
+     - Percona Distribution for MongoDB 4.2.7
    * - ``tools``
      - All other products and tools, such as *Percona XtraBackup 8.0*,
        *Percona Toolkit*, *PMM Client*, *ProxySQL*, etc.
