@@ -296,7 +296,7 @@ Example: All steps for installing a specific Percona product
 
    $ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
    $ sudo percona-release enable-only pxc-80 release
-   $ sudo percona-release enable tools-release
+   $ sudo percona-release enable tools release
    $ sudo yum install percona-xtradb-cluster
 
 .. rubric:: Percona Server for MySQL 8.0, Percona Toolkit, Percona XtraBackup and Sysbench on Ubuntu 18.04:
