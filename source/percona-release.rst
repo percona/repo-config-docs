@@ -83,6 +83,8 @@ install.
       - `Percona XtraBackup  <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html>`_
       - `Percona Distribution for PostgreSQL  <https://www.percona.com/doc/postgresql/11/installing.html#using-the-deb-format>`_
       - `Percona Distribution for MongoDB <https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-debian-ubuntu>`_
+      - `Percona Distribution for MySQL
+	<https://www.percona.com/doc/percona-distribution-mysql/8.0/installing.html#install-pdmysql>`_
 	
 .. _percona-release.rpm.installing:
 
@@ -115,6 +117,8 @@ Percona product that you intend to install.
 	<https://www.percona.com/doc/postgresql/11/installing.html#using-the-rpm-format>`_
       - `Percona Distribution for MongoDB
 	<https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-red-hat-enterprise-linux-centos>`_
+      - `Percona Distribution for MySQL
+	<https://www.percona.com/doc/percona-distribution-mysql/8.0/installing.html#install-pdmysql>`_
 
 .. _percona-release.usage:
 
@@ -187,6 +191,11 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``pdmdb4.2``
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
+     - ``pdmdb4.2.8``
+     - ``pdps8.0.19``
+     - ``pdpxc8.0.19``
+     - ``pdps8.0``
+     - ``pdpxc8.0``
 
   The following example disables all Percona repository locations and then
   enables the ``release`` repository for *Percona Server for MySQL* 8.0. This
@@ -237,6 +246,8 @@ Available repositories are:
      - Percona Distribution for PostgreSQL 11.6
    * - ``ppg-11.7``
      - Percona Distribution for PostgreSQL 11.7
+   * - ``ppg-11.8``
+     - Percona Distribution for PostgreSQL 11.8
    * - ``ppg-12``
      - Percona Distribution for PostgreSQL 12
    * - ``ppg-12.2``
@@ -249,6 +260,16 @@ Available repositories are:
      - Percona Distribution for MongoDB 4.2.6
    * - ``pdmdb-4.2.7``
      - Percona Distribution for MongoDB 4.2.7
+   * - ``pdmdb-4.2.8``
+     - Percona Distribution for MongoDB 4.2.8
+   * - ``pdps-8.0``
+     - Percona Distribution for Percona Server for MySQL 8.0
+   * - ``pdps-8.0.19``
+     - Percona Distribution for Percona Server for MySQL 8.0.19
+   * - ``pdpxc-8.0``
+     - Percona Distribution for Percona XtraDB Cluster 8.0
+   * - ``pdpxc-8.0.19``
+     - Percona Distribution for Percona XtraDB Cluster 8.0.19
    * - ``tools``
      - All other products and tools, such as *Percona XtraBackup 8.0*,
        *Percona Toolkit*, *PMM Client*, *ProxySQL*, etc.
