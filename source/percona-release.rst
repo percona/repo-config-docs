@@ -192,12 +192,11 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
      - ``pdmdb4.2.8``
+     - ``pdps8.0``
      - ``pdps8.0.19``
      - ``pdps8.0.20``
-     - ``pdpxc8.0.19``
-     - ``pdpxc8.0.20``
-     - ``pdps8.0``
      - ``pdpxc8.0``
+     - ``pdpxc8.0.19``
 
   The following example disables all Percona repository locations and then
   enables the ``release`` repository for *Percona Server for MySQL* 8.0. This
@@ -265,17 +264,15 @@ Available repositories are:
    * - ``pdmdb-4.2.8``
      - Percona Distribution for MongoDB 4.2.8
    * - ``pdps-8.0``
-     - Percona Distribution for Percona Server for MySQL 8.0
+     - Percona Distribution for MySQL using Percona Server for MySQL 8.0
    * - ``pdps-8.0.19``
-     - Percona Distribution for Percona Server for MySQL 8.0.19
+     - Percona Distribution for MySQL using Percona Server for MySQL 8.0.19
    * - ``pdps-8.0.20``
-     - Percona Distribution for Percona Server for MySQL 8.0.20
+     - Percona Distribution for MySQL using Percona Server for MySQL 8.0.20
    * - ``pdpxc-8.0``
-     - Percona Distribution for Percona XtraDB Cluster 8.0
+     - Percona Distribution for MySQL using Percona XtraDB Cluster 8.0
    * - ``pdpxc-8.0.19``
-     - Percona Distribution for Percona XtraDB Cluster 8.0.19
-   * - ``pdpxc-8.0.20``
-     - Percona Distribution for Percona XtraDB Cluster 8.0.20
+     - Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.19
    * - ``tools``
      - All other products and tools, such as *Percona XtraBackup 8.0*,
        *Percona Toolkit*, *PMM Client*, *ProxySQL*, etc.
