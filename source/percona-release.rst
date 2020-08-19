@@ -356,26 +356,22 @@ Example: All steps for installing a specific Percona product
 Updating |percona-release| to the Latest Version
 ================================================================================
 
-|percona-release| itself is available from the *original* repository. Thus, the
-update procedure is very simple:
+|percona-release| itself is available from the *prel* repository which is enabled by default. Thus, to update |percona-release|, simply run the following command as root or via sudo:
 
-#. Enable the *original* repository
+- For RPM-based systems:
 
-   .. code-block:: bash
+  .. code-block:: bash
 
-      $ sudo percona-release enable original
+     $ yum update percona-release
 
-#. Install the latest version using the package manager of your system:
+- For DEB-based systems:
 
-   .. code-block:: bash
+  .. code-block:: bash
 
-      # RPM-based systems
-      $ yum update percona-release
-
-   .. code-block:: bash
-
-      #DEB-based systems
-      $ apt-get install percona-release
+     #Update the local cache
+     $ apt-get update
+     #Update percona-release
+     $ apt-get install percona-release
 
 .. include:: .res/replace.program.txt
 
