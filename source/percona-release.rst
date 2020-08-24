@@ -4,7 +4,7 @@
 Configuring Percona Repositories with percona-release 
 ================================================================================
 
-The ``percona-release`` configuration tool allows users to automatically
+The |percona-release| configuration tool allows users to automatically
 configure which Percona repositories are enabled and disabled.
 
 .. contents::
@@ -63,7 +63,7 @@ official package:
 
       .. code-block:: bash
 
-	 $ sudo apt-get install --fix-broken
+	       $ sudo apt-get install --fix-broken
 
 #. Once you install this package the |Percona| repositories should be available. You
    can check the repository setup in the
@@ -176,6 +176,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``psmdb36``
      - ``psmdb40``
      - ``psmdb42``
+     - ``psmdb44``
      - ``pxb80``
      - ``pxc56``
      - ``pxc57``
@@ -192,6 +193,8 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
      - ``pdmdb4.2.8``
+     - ``pdmdb4.4``
+     - ``pdmdb4.4.0``
      - ``pdps8.0``
      - ``pdps8.0.19``
      - ``pdps8.0.20``
@@ -227,8 +230,8 @@ Available repositories are:
    * - Repository
      - Product Packages
    * - ``original``
-     - Percona’s products of previous versions which haven’t yet reach
-       their end of life and are still supported, such as *Percona
+     - Percona's products of previous versions which haven't yet reached
+       their end of life and are still supported. These are: *Percona
        Server for MySQL 5.6* and *5.7*, *Percona XtraDB Cluster 5.6* and
        *5.7*, *Percona Server for MongoDB 3.4* and *3.6* etc.
    * - ``ps-80``
@@ -239,8 +242,10 @@ Available repositories are:
      - Percona Server for MongoDB 4.0
    * - ``psmdb-42``
      - Percona Server for MongoDB 4.2
+   * - ``psmdb-44``
+     - Percona Server for MongoDB 4.4
    * - ``ppg-11``
-     - Percona Distribution for PostgreSQL 11
+     - Percona Distribution for PostgreSQL 11 
    * - ``ppg-11.5``
      - Percona Distribution for PostgreSQL 11.5
    * - ``ppg-11.6``
@@ -263,6 +268,10 @@ Available repositories are:
      - Percona Distribution for MongoDB 4.2.7
    * - ``pdmdb-4.2.8``
      - Percona Distribution for MongoDB 4.2.8
+   * - ``pdmdb-4.4``
+     -  Percona Distribution for MongoDB 4.4
+   * - ``pdmdb-4.4.0``
+     -  Percona Distribution for MongoDB 4.4.0
    * - ``pdps-8.0``
      - Percona Distribution for MySQL using Percona Server for MySQL 8.0
    * - ``pdps-8.0.19``
