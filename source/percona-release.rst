@@ -134,7 +134,21 @@ Usage
 Commands
 --------------------------------------------------------------------------------
 
-Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
+Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and ``show``:
+
+* ``show`` command shows the enabled repositories in your system:
+
+  .. code-block:: bash
+  
+     $ sudo percona-release show
+
+  .. admonition:: Sample output
+  
+     .. code-block:: text
+
+        The following repos are enabled on your system:
+        http://repo.percona.com/percona/apt
+        http://repo.percona.com/prel/apt  
 
 * ``enable`` command turns on an additional Percona *repository location*.
   For example, the following command enables the ``ps-80 release`` repository
