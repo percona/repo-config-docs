@@ -160,6 +160,10 @@ Available commands are ``enable``, ``enable-only``, ``disable``, and ``setup``:
 
      $ sudo percona-release disable all
 
+  .. note:: 
+
+     The ``prel`` repository remains enabled. This repository stores the ``percona-release`` packages and is always enabled for ``percona-release`` to operate.
+
 * ``setup`` `<PRODUCT>` command disables all current Percona
   repository locations, then enables the correct release repositories given a
   *product use*, and updates the platform's package manager database.
