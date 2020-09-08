@@ -81,8 +81,8 @@ install.
       - `Percona Server for MongoDB  <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/apt.html>`_
       - `Percona XtraDB Cluster  <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/apt.html>`_
       - `Percona XtraBackup  <https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html>`_
-      - `Percona Distribution for PostgreSQL  <https://www.percona.com/doc/postgresql/11/installing.html#using-the-deb-format>`_
-      - `Percona Distribution for MongoDB <https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-debian-ubuntu>`_
+      - `Percona Distribution for PostgreSQL  <https://www.percona.com/doc/postgresql/LATEST/installing.html#using-the-deb-format>`_
+      - `Percona Distribution for MongoDB <https://www.percona.com/doc/percona-distribution-for-mongodb/LATEST/installation.html#install-on-debian-ubuntu>`_
       - `Percona Distribution for MySQL
 	<https://www.percona.com/doc/percona-distribution-mysql/8.0/installing.html#install-pdmysql>`_
 	
@@ -114,9 +114,9 @@ Percona product that you intend to install.
       - `Percona XtraBackup
 	<https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/yum_repo.html>`_
       - `Percona Distribution for PostgreSQL
-	<https://www.percona.com/doc/postgresql/11/installing.html#using-the-rpm-format>`_
+	<https://www.percona.com/doc/postgresql/LATEST/installing.html#using-the-rpm-format>`_
       - `Percona Distribution for MongoDB
-	<https://www.percona.com/doc/percona-distribution-for-mongodb/4.2/installation.html#install-on-red-hat-enterprise-linux-centos>`_
+	<https://www.percona.com/doc/percona-distribution-for-mongodb/LATEST/installation.html#install-on-red-hat-enterprise-linux-centos>`_
       - `Percona Distribution for MySQL
 	<https://www.percona.com/doc/percona-distribution-mysql/8.0/installing.html#install-pdmysql>`_
 
@@ -205,6 +205,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg11.6``
      - ``ppg11.7``
      - ``ppg11.8``
+     - ``ppg11.9``
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
@@ -321,6 +322,8 @@ Available repositories are:
 |                |``ppg-11.7``      |Percona Distribution for PostgreSQL 11.7|
 |                +------------------+----------------------------------------+
 |                |``ppg-11.8``      |Percona Distribution for PostgreSQL 11.8|
+|                +------------------+----------------------------------------+
+|                |``ppg-11.9``      |Percona Distribution for PostgreSQL 11.9|
 |                +------------------+----------------------------------------+
 |                |``ppg-12``        |Percona Distribution for PostgreSQL 12  |
 |                +------------------+----------------------------------------+
