@@ -209,6 +209,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
+     - ``ppg12.4``
      - ``pdmdb4.2``
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
@@ -330,6 +331,8 @@ Available repositories are:
 |                |``ppg-12.2``      |Percona Distribution for PostgreSQL 12.2|
 |                +------------------+----------------------------------------+
 |                |``ppg-12.3``      |Percona Distribution for PostgreSQL 12.3|
+|                +------------------+----------------------------------------+
+|                |``ppg-12.4``      |Percona Distribution for PostgreSQL 12.4|
 +----------------+------------------+----------------------------------------+
 | Percona Tools  |``pmm-client``    |Percona Monitoring and Management Client|
 |                +------------------+----------------------------------------+
