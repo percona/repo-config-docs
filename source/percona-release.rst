@@ -237,6 +237,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
+     - ``ppg12.4``
      - ``pdmdb4.2``
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
@@ -314,8 +315,6 @@ Available repositories are:
       **Percona Tools**:
 
    .. include:: .res/tools-repos.txt
-
-
             
 Components
 --------------------------------------------------------------------------------
