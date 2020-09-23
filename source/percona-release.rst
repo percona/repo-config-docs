@@ -42,20 +42,20 @@ official package:
 
    .. code-block:: bash
 
-      $ sudo apt-get update
-      $ sudo apt-get install -y wget gnupg2 lsb-release
+      $ apt-get update
+      $ apt-get install -y wget gnupg2 lsb-release
 
-1. Fetch the repository package:
+1. Fetch the repository package. 
 
    .. code-block:: bash
              
       $ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
-
+      
 #. Install the downloaded repository package with ``dpkg``:
 
    .. code-block:: bash
 		   
-      $ sudo dpkg -i percona-release_latest.generic_all.deb
+      $ dpkg -i percona-release_latest.generic_all.deb
 
    .. note::
 
@@ -65,10 +65,15 @@ official package:
 
 	       $ sudo apt-get install --fix-broken
 
+#. Update the local cache:
+
+   .. code-block:: bash
+   
+       $ sudo apt-get update
+
 #. Once you install this package the |Percona| repositories should be available. You
    can check the repository setup in the
-   :file:`/etc/apt/sources.list.d/percona-release.list` file.
-
+   :file:`/etc/apt/sources.list.d/percona-original-release.list` file.
 
 With ``percona-release`` package installed, :ref:`run the percona-release command <percona-release.usage>` to
 set up the repository that contains the Percona product that you intend to
@@ -187,50 +192,48 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
   .. hlist::
      :columns: 2
 
-     - ``ps56``
-     - ``ps57``
-     - ``ps80``
-     - ``psmdb34``
-     - ``psmdb36``
-     - ``psmdb40``
-     - ``psmdb42``
-     - ``psmdb44``
-     - ``pxb24``
-     - ``pxb80``
-     - ``pxc56``
-     - ``pxc57``
-     - ``pxc80``
-     - ``ppg11``
-     - ``ppg11.5``
-     - ``ppg11.6``
-     - ``ppg11.7``
-     - ``ppg11.8``
-     - ``ppg11.9``
-     - ``ppg12``
-     - ``ppg12.2``
-     - ``ppg12.3``
-     - ``ppg12.4``
-     - ``pdmdb4.2``
-     - ``pdmdb4.2.6``
-     - ``pdmdb4.2.7``
-     - ``pdmdb4.2.8``
-     - ``pdmdb4.2.9``
-     - ``pdmdb4.4``
-     - ``pdmdb4.4.0``
-     - ``pdps8.0``
-     - ``pdps8.0.19``
-     - ``pdps8.0.20``
-     - ``pdpxc8.0``
-     - ``pdpxc8.0.19``
+ 
+     - ``ps-56``
+     - ``ps-57``
+     - ``ps-80``
+     - ``pxc-56``
+     - ``pxc-57``
+     - ``pxc-80``
+     - ``psmdb-36``
+     - ``psmdb-40``
+     - ``psmdb-42``
+     - ``pxb-24``
+     - ``pxb-80``
+     - ``tools``
+     - ``ppg-11``
+     - ``ppg-11.5``
+     - ``ppg-11.6``
+     - ``ppg-11.7``
+     - ``ppg-11.8``
+     - ``ppg-12``
+     - ``ppg-12.2``
+     - ``ppg-12.3``
+     - ``pdmdb-4.2``
+     - ``pdmdb-4.2.6``
+     - ``pdmdb-4.2.7``
+     - ``pdmdb-4.2.8``
+     - ``pdps-8.0.19``
+     - ``pdpxc-8.0.19``
+     - ``pdps-8.0.20``
+     - ``pdps-8.0``
+     - ``pdpxc-8.0``
      - ``prel``
      - ``proxysql``
-     - ``sysbench`` 
-     - ``pt`` 
+     - ``sysbench``
+     - ``pt``
+     - ``mysql-shell``
+     - ``pbm``
      - ``pmm-client``
-     - ``pmm2-client`` 
-     - ``mysql-shell`` 
-     - ``pbm`` 
-
+     - ``pmm2-client``
+     - ``pdmdb-4.4``
+     - ``pdmdb-4.4.0``
+     - ``psmdb-44``
+   
   The following example disables all Percona repository locations and then
   enables the ``release`` repository for *Percona Server for MySQL* 8.0. This
   command runs in the interactive mode and may request extra input from you,
