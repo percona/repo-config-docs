@@ -1,0 +1,24 @@
+.. list-table::
+
+      * - Repository
+        - Product Packages
+      * - ``ppg-11``
+        - Percona Distribution for PostgreSQL 11
+      * - ``ppg-11.5``
+        - Percona Distribution for PostgreSQL 11.5  
+      * - ``ppg-11.6``
+        - Percona Distribution for PostgreSQL 11.6
+      * - ``ppg-11.7``
+        - Percona Distribution for PostgreSQL 11.7
+      * - ``ppg-11.8``
+        - Percona Distribution for PostgreSQL 11.8
+      * - ``ppg-11.9``
+        - Percona Distribution for PostgreSQL 11.9
+      * - ``ppg-12``
+        - Percona Distribution for PostgreSQL 12
+      * - ``ppg-12.2``
+        - Percona Distribution for PostgreSQL 12.2  
+      * - ``ppg-12.3``
+        - Percona Distribution for PostgreSQL 12.3
+      * - ``ppg-12.4``
+        - Percona Distribution for PostgreSQL 12.4

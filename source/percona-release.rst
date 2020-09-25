@@ -4,6 +4,34 @@
 Configuring Percona Repositories with percona-release 
 ================================================================================
 
+.. raw:: html
+
+   <style>
+   
+   .toggle {
+        background: none repeat scroll 0 0 #f5f5f5;
+        padding: 12px;
+        max-width: 850px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+   
+   .toggle .header {
+       display: block;
+       clear: both;
+       cursor: pointer;
+   }
+   
+   .toggle .header:after {
+       content: " ▶";
+   }
+   
+   .toggle .header.open:after {
+       content: " ▼";
+   }
+   </style>
+
+
 The |percona-release| configuration tool allows users to automatically
 configure which Percona repositories are enabled and disabled.
 
@@ -217,6 +245,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdmdb4.2.9``
      - ``pdmdb4.4``
      - ``pdmdb4.4.0``
+     - ``pdmdb4.4.1``
      - ``pdps8.0``
      - ``pdps8.0.19``
      - ``pdps8.0.20``
@@ -255,117 +284,37 @@ Repository locations
 *Repository location* may contain two parts: a *repository* and a *component*.
 Available repositories are:
 
+.. container:: toggle
 
-+----------------+------------------+----------------------------------------+
-| Software       | Repository       | Product Packages                       |
-+================+==================+========================================+
-| MySQL Software |``ps-56``         |Percona Server for MySQL 5.6            |
-|                +------------------+----------------------------------------+
-|                |``ps-57``         |Percona Server for MySQL 5.7            |
-|                +------------------+----------------------------------------+
-|                |``ps-80``         |Percona Server for MySQL 8.0            |
-|                +------------------+----------------------------------------+
-|                |``pxc-56``        |Percona XtraDB Cluster 5.6              |
-|                +------------------+----------------------------------------+
-|                |``pxc-57``        |Percona XtraDB Cluster 5.7              |
-|                +------------------+----------------------------------------+
-|                |``pxc-80``        |Percona XtraDB Cluster 8.0              |
-|                +------------------+----------------------------------------+
-|                |``pxb-24``        |Percona XtraBackup 2.4                  |
-|                +------------------+----------------------------------------+
-|                |``pxb-80``        |Percona XtraBackup 8.0                  |
-|                +------------------+----------------------------------------+
-|                |``pdps-8.0``      |Percona Distribution for MySQL using    |
-|                |                  |Percona Server for MySQL 8.0            |
-|                +------------------+----------------------------------------+
-|                |``pdps-8.0.19``   |Percona Distribution for MySQL using    |
-|                |                  |Percona Server for MySQL 8.0.19         |
-|                +------------------+----------------------------------------+
-|                |``pdps-8.0.20``   |Percona Distribution for MySQL using    |
-|                |                  |Percona Server for MySQL 8.0.20         |
-|                +------------------+----------------------------------------+
-|                |``pdpxc-8.0``     |Percona Distribution for MySQL using    |
-|                |                  |Percona XtraDB Cluster 8.0              |
-|                +------------------+----------------------------------------+
-|                |``pdpxc-8.0.19``  |Percona Distribution for MySQL using    |
-|                |                  |Percona XtraDB Cluster 8.0              |
-+----------------+------------------+----------------------------------------+
-| MongoDB        |``psmdb-36``      |Percona Server for MongoDB 3.6          |
-| Software       +------------------+----------------------------------------+
-|                |``psmdb-40``      |Percona Server for MongoDB 4.0          |
-|                +------------------+----------------------------------------+
-|                |``psmdb-42``      | Percona Server for MongoDB 4.2         |
-|                +------------------+----------------------------------------+
-|                |``psmdb-44``      |Percona Server for MongoDB 4.4          |
-|                +------------------+----------------------------------------+
-|                |``pbm``           |Percona Backup for MongoDB              |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.2``     |Percona Distribution for MongoDB 4.2    |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.2.6``   |Percona Distribution for MongoDB 4.2.6  |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.2.7``   |Percona Distribution for MongoDB 4.2.7  |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.2.8``   |Percona Distribution for MongoDB 4.2.8  |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.2.9``   |Percona Distribution for MongoDB 4.2.9  |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.4``     |Percona Distribution for MongoDB 4.4    |
-|                +------------------+----------------------------------------+
-|                |``pdmdb-4.4.0``   |Percona Distribution for MongoDB 4.4.0  |
-+----------------+------------------+----------------------------------------+
-| PostgreSQL     |``ppg-11``        |Percona Distribution for PostgreSQL 11  |
-| Software       +------------------+----------------------------------------+
-|                |``ppg-11.5``      |Percona Distribution for PostgreSQL 11.5|
-|                +------------------+----------------------------------------+
-|                |``ppg-11.6``      |Percona Distribution for PostgreSQL 11.6|
-|                +------------------+----------------------------------------+
-|                |``ppg-11.7``      |Percona Distribution for PostgreSQL 11.7|
-|                +------------------+----------------------------------------+
-|                |``ppg-11.8``      |Percona Distribution for PostgreSQL 11.8|
-|                +------------------+----------------------------------------+
-|                |``ppg-11.9``      |Percona Distribution for PostgreSQL 11.9|
-|                +------------------+----------------------------------------+
-|                |``ppg-12``        |Percona Distribution for PostgreSQL 12  |
-|                +------------------+----------------------------------------+
-|                |``ppg-12.2``      |Percona Distribution for PostgreSQL 12.2|
-|                +------------------+----------------------------------------+
-|                |``ppg-12.3``      |Percona Distribution for PostgreSQL 12.3|
-|                +------------------+----------------------------------------+
-|                |``ppg-12.4``      |Percona Distribution for PostgreSQL 12.4|
-+----------------+------------------+----------------------------------------+
-| Percona Tools  |``pmm-client``    |Percona Monitoring and Management Client|
-|                +------------------+----------------------------------------+
-|                |``pmm2-client``   |Percona Monitoring and Management       |
-|                |                  |Client 2                                |
-|                +------------------+----------------------------------------+
-|                |``pt``            |Percona Toolkit                         |
-|                +------------------+----------------------------------------+
-|                |``proxysql``      |ProxySQL                                |
-|                +------------------+----------------------------------------+
-|                |``mysql-shell``   |MySQL Shell                             |
-|                +------------------+----------------------------------------+
-|                |``sysbench``      |Sysbench tool for benchmarking          |
-|                +------------------+----------------------------------------+
-|                | ``original``     |Percona's products of previous versions |
-|                |                  |which haven't yet reached their end of  |
-|                |                  |life and are still supported. These are:|
-|                |                  |Percona Server for MySQL 5.6 and 5.7,   |
-|                |                  |Percona XtraDB Cluster 5.6 and 5.7,     |
-|                |                  |Percona Server for MongoDB 3.4 and 3.6, |
-|                |                  |etc. Though moved to dedicated          |
-|                |                  |repositories, they are kept here for    |
-|                |                  |backward compatibility                  |
-|                +------------------+----------------------------------------+
-|                | ``tools``        |Other products and tools, such as       |
-|                |                  |Percona XtraBackup 8.0, Percona         |
-|                |                  |Toolkit, PMM Client, ProxySQL, etc.     |
-|                |                  |Though moved to dedicated repositories, |
-|                |                  |they are kept here for backward         |
-|                |                  |compatibility                           |
-|                +------------------+----------------------------------------+
-|                | ``prel``         | percona-release packages               |
-+----------------+------------------+----------------------------------------+
+   .. container:: header
+
+      **MySQL Software**:
+
+   .. include:: .res/mysql-repos.txt
+
+.. container:: toggle
+
+   .. container:: header
+
+      **MongoDB Software**:
+
+   .. include:: .res/mongodb-repos.txt
+
+.. container:: toggle
+
+   .. container:: header
+
+      **PostgreSQL Software**:
+
+   .. include:: .res/postgresql-repos.txt
+
+.. container:: toggle
+
+   .. container:: header
+
+      **Percona Tools**:
+
+   .. include:: .res/tools-repos.txt
             
 Components
 --------------------------------------------------------------------------------
