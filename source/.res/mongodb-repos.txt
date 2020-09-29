@@ -10,6 +10,8 @@
         - Percona Server for MongoDB 4.2
       * - ``psmdb-44``   
         - Percona Server for MongoDB 4.4
+      * - ``pbm``
+        - Percona Backup for MongoDB
       * - ``pdmdb-4.2``   
         - Percona Distribution for MongoDB 4.2
       * - ``pdmdb-4.2.6``   
