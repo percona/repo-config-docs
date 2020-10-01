@@ -251,6 +251,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdps8.0.20``
      - ``pdpxc8.0``
      - ``pdpxc8.0.19``
+     - ``pdpxc8.0.20``
      - ``prel``
      - ``proxysql``
      - ``sysbench`` 
