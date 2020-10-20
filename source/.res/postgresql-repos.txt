@@ -22,3 +22,7 @@
         - Percona Distribution for PostgreSQL 12.3
       * - ``ppg-12.4``
         - Percona Distribution for PostgreSQL 12.4
+      * - ``ppg-13``
+        - Percona Distribution for PostgreSQL 13
+      * - ``ppg-13.0``
+        - Percona Distribution for PostgreSQL 13.0

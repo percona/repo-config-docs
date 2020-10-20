@@ -238,6 +238,8 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg12.2``
      - ``ppg12.3``
      - ``ppg12.4``
+     - ``ppg13``
+     - ``ppg13.0``
      - ``pdmdb4.2``
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
