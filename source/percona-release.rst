@@ -64,14 +64,14 @@ official package:
       installed percona-release package post-installation script subprocess returned error exit status 255
 
    In Linux distributions that rely on ``dpkg`` the packages ``wget``,
-   ``gnupg2``, and ``lsb-release`` are already installed. However, these
+   ``gnupg2``, ``curl`` and ``lsb-release`` are already installed. However, these
    packages may be missing from Docker base images. In this case, install them
    manually *before running dpkg*:
 
    .. code-block:: bash
 
       $ sudo apt-get update
-      $ sudo apt-get install -y wget gnupg2 lsb-release
+      $ sudo apt-get install -y wget gnupg2 lsb-release curl
 
 1. Fetch the repository package:
 
