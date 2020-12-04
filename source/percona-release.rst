@@ -238,6 +238,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg12.2``
      - ``ppg12.3``
      - ``ppg12.4``
+     - ``ppg12.5``
      - ``ppg13``
      - ``ppg13.0``
      - ``ppg13.1``
@@ -247,6 +248,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdmdb4.2.8``
      - ``pdmdb4.2.9``
      - ``pdmdb4.2.10``
+     - ``pdmdb4.2.11``
      - ``pdmdb4.4``
      - ``pdmdb4.4.0``
      - ``pdmdb4.4.1``
@@ -254,6 +256,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdps8.0``
      - ``pdps8.0.19``
      - ``pdps8.0.20``
+     - ``pdps8.0.21``
      - ``pdpxc8.0``
      - ``pdpxc8.0.19``
      - ``pdpxc8.0.20``
