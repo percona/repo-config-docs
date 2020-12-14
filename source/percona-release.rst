@@ -234,6 +234,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg11.7``
      - ``ppg11.8``
      - ``ppg11.9``
+     - ``ppg11.10``
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
@@ -257,9 +258,11 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdps8.0.19``
      - ``pdps8.0.20``
      - ``pdps8.0.21``
+     - ``pdps8.0.22``
      - ``pdpxc8.0``
      - ``pdpxc8.0.19``
      - ``pdpxc8.0.20``
+     - ``pdpxc8.0.21``
      - ``prel``
      - ``proxysql``
      - ``sysbench`` 
