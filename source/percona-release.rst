@@ -93,10 +93,13 @@ official package:
 
 	       $ sudo apt-get install --fix-broken
 
-#. Once you install this package the |Percona| repositories should be available. You
-   can check the repository setup in the
-   :file:`/etc/apt/sources.list.d/percona-release.list` file.
+#. After installation, the |Percona| repositories are available. You
+   can check the repository setup for the Percona original release list in the
+   :file:`/etc/apt/sources.list.d/percona-original-release.list` file.
 
+   .. note::
+
+      If you have enabled another repository, the file name is different.
 
 With ``percona-release`` package installed, :ref:`run the percona-release command <percona-release.usage>` to
 set up the repository that contains the Percona product that you intend to
