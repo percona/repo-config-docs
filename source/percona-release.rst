@@ -46,7 +46,7 @@ Installation
 
 .. _percona-release.apt.installing:
 
-DEB-Based GNU/Linux Distributions
+Debian and Ubuntu 
 --------------------------------------------------------------------------------
 
 If you are running a DEB-based distribution, such as Debian or Ubuntu,
@@ -55,15 +55,7 @@ official package:
 
 .. admonition:: Prerequisites
 
-   Running ``dpkg`` further in this procedure may fail due to unsatisfied
-   dependencies that ``dpkg`` will not resolve for you.
-
-   .. code-block:: text
-
-      dpkg: error processing package percona-release (--install):
-      installed percona-release package post-installation script subprocess returned error exit status 255
-
-   In Linux distributions that rely on ``dpkg`` the packages ``wget``,
+   In Linux distributions that rely on ``dpkg``, the packages ``wget``,
    ``gnupg2``, ``curl`` and ``lsb-release`` are already installed. However, these
    packages may be missing from Docker base images. In this case, install them
    manually *before running dpkg*:
@@ -85,14 +77,6 @@ official package:
 		   
       $ sudo dpkg -i percona-release_latest.generic_all.deb
 
-   .. note::
-
-      If ``dpkg`` fails at this step due to missing dependencies, run ``apt`` as follows:
-
-      .. code-block:: bash
-
-	       $ sudo apt-get install --fix-broken
-
 #. After installation, the |Percona| repositories are available. You
    can check the repository setup for the Percona original release list in the
    :file:`/etc/apt/sources.list.d/percona-original-release.list` file.
@@ -101,13 +85,35 @@ official package:
 
       If you have enabled another repository, the file name is different.
 
+#. Refresh the local cache to update the package information:
+   
+   .. code-block:: bash
+   
+      $ sudo apt-get update
+
+.. note::
+
+   During the installation, ``dpkg`` may fail due to unsatisfied
+   dependencies.
+
+   .. code-block:: text
+
+      dpkg: error processing package percona-release (--install):
+      installed percona-release package post-installation script subprocess returned error exit status 255
+
+   In this case, run the following command:
+
+   .. code-block:: bash
+   
+      $ sudo apt-get install --fix-broken
+
 With ``percona-release`` package installed, :ref:`run the percona-release command <percona-release.usage>` to
 set up the repository that contains the Percona product that you intend to
 install.
 
 .. seealso::
 
-   Installing on Debian or Ubuntu with the apt package manager:
+   Debian or Ubuntu with the apt package manager:
       - `Percona Server for MySQL <https://www.percona.com/doc/percona-server/LATEST/installation/apt_repo.html>`_
       - `Percona Server for MongoDB  <https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/apt.html>`_
       - `Percona XtraDB Cluster  <https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/apt.html>`_
@@ -119,7 +125,7 @@ install.
 	
 .. _percona-release.rpm.installing:
 
-RPM-Based GNU/Linux Distributions
+Red Hat Enterprise Linux and CentOS
 --------------------------------------------------------------------------------
 
 If you are running a RPM-based distribution, such as Red Hat Enterprise
@@ -135,7 +141,7 @@ Percona product that you intend to install.
 
 .. seealso::
 
-   Installing on Red Hat and CentOS with the yum package manager:
+   Red Hat and CentOS with the yum package manager:
       - `Percona Server for MySQL
 	<https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html>`_
       - `Percona Server for MongoDB
