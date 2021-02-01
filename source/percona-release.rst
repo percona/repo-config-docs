@@ -259,6 +259,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdmdb4.2.9``
      - ``pdmdb4.2.10``
      - ``pdmdb4.2.11``
+     - ``pdmdb4.2.12``
      - ``pdmdb4.4``
      - ``pdmdb4.4.0``
      - ``pdmdb4.4.1``
