@@ -42,7 +42,7 @@ Installation
 ================================================================================
 
 ``percona-release`` can be installed with ``apt`` (for Debian and Ubuntu) or
-``yum`` (for Red Hat Enterprise Linux and derivatives) package managers.
+``yum`` (for Red Hat Enterprise Linux and derivatives) package managers. Find information about supported platforms on the `Percona Release Lifecycle Overview <https://www.percona.com/services/policies/percona-software-support-lifecycle#support>`_.
 
 .. _percona-release.apt.installing:
 
