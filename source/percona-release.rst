@@ -244,11 +244,13 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg11.8``
      - ``ppg11.9``
      - ``ppg11.10``
+     - ``ppg11.11``
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
      - ``ppg12.4``
      - ``ppg12.5``
+     - ``ppg12.6``
      - ``ppg13``
      - ``ppg13.0``
      - ``ppg13.1``
