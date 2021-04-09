@@ -373,7 +373,7 @@ with the ``testing`` component.
 
 .. code-block:: bash
 
-   $ sudo percona-release enable ps80 testing
+   $ sudo percona-release enable ps-80 testing
 
 This example enables installing a pre-release version of Percona Server for MySQL 8.0.
 
