@@ -28,6 +28,10 @@
         - Percona Distribution for MongoDB 4.2.11
       * - ``pdmdb-4.2.12``   
         - Percona Distribution for MongoDB 4.2.12
+      * - ``pdmdb-4.2.13``   
+        - Percona Distribution for MongoDB 4.2.13
+      * - ``pdmdb-4.2.14``   
+        - Percona Distribution for MongoDB 4.2.14
       * - ``pdmdb-4.4``   
         - Percona Distribution for MongoDB 4.4
       * - ``pdmdb-4.4.0``   
@@ -40,3 +44,7 @@
         - Percona Distribution for MongoDB 4.4.3
       * - ``pdmdb-4.4.4``   
         - Percona Distribution for MongoDB 4.4.4
+      * - ``pdmdb-4.4.5``   
+        - Percona Distribution for MongoDB 4.4.5
+      * - ``pdmdb-4.4.6``   
+        - Percona Distribution for MongoDB 4.4.6
