@@ -245,16 +245,19 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``ppg11.9``
      - ``ppg11.10``
      - ``ppg11.11``
+     - ``ppg11.12``
      - ``ppg12``
      - ``ppg12.2``
      - ``ppg12.3``
      - ``ppg12.4``
      - ``ppg12.5``
      - ``ppg12.6``
+     - ``ppg12.7``
      - ``ppg13``
      - ``ppg13.0``
      - ``ppg13.1``
      - ``ppg13.2``
+     - ``ppg13.3``
      - ``pdmdb4.2``
      - ``pdmdb4.2.6``
      - ``pdmdb4.2.7``
@@ -263,21 +266,28 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdmdb4.2.10``
      - ``pdmdb4.2.11``
      - ``pdmdb4.2.12``
+     - ``pdmdb4.2.13``
+     - ``pdmdb4.2.14``
      - ``pdmdb4.4``
      - ``pdmdb4.4.0``
      - ``pdmdb4.4.1``
      - ``pdmdb4.4.2``
      - ``pdmdb4.4.3``
      - ``pdmdb4.4.4``
+     - ``pdmdb4.4.5``
+     - ``pdmdb4.4.6``
      - ``pdps8.0``
      - ``pdps8.0.19``
      - ``pdps8.0.20``
      - ``pdps8.0.21``
      - ``pdps8.0.22``
+     - ``pdps8.0.23``
      - ``pdpxc8.0``
      - ``pdpxc8.0.19``
      - ``pdpxc8.0.20``
      - ``pdpxc8.0.21``
+     - ``pdpxc8.0.22``
+     - ``pdpxc8.0.23``
      - ``prel``
      - ``proxysql``
      - ``sysbench`` 
