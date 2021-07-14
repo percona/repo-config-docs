@@ -222,7 +222,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
   chosen from the following list (the names of products are self-explanatory):
 
   .. hlist::
-     :columns: 2
+     :columns: 3
 
      - ``ps56``
      - ``ps57``
@@ -282,6 +282,7 @@ Available commands are ``enable``, ``enable-only``, ``disable``, ``setup`` and `
      - ``pdps8.0.21``
      - ``pdps8.0.22``
      - ``pdps8.0.23``
+     - ``pdps8.0.25``
      - ``pdpxc8.0``
      - ``pdpxc8.0.19``
      - ``pdpxc8.0.20``
