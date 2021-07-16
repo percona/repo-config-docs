@@ -2,3 +2,5 @@ build
 source/percona-theme/
 source/ext/psdom.pyc
 site/
+source/__pycache__
+
