@@ -173,15 +173,15 @@ chosen from the following table (the names of products are self-explanatory):
     |  ``pxc80``      | ``ppg11.12``    | ``pdmdb4.2.12`` | ``pdpxc8.0``    |
     | ``pbm``         | ``ppg12``       | ``pdmdb4.2.13`` | ``pdpxc8.0.19`` |
     | ``psmdb34``     | ``ppg12.1``     | ``pdmdb4.2.14`` | ``pdpxc8.0.20`` |
-    | ``psmdb36``     | ``ppg12.2``     | ``pdmdb4.4``    | ``pdpxc8.0.21`` |
-    | ``psmdb40``     | ``ppg12.3``     | ``pdmdb4.4.0``  | ``pdpxc8.0.22`` |
-    | ``psmdb42``     | ``ppg12.4``     | ``pdmdb4.4.1``  | ``pdpxc8.0.23`` |
-    | ``psmdb44``     | ``ppg12.5``     | ``pdmdb4.4.2``  |  |
-    |                 | ``ppg12.6``     | ``pdmdb4.4.3``  |  |
-    |``mysql-shell``  | ``ppg12.7``     | ``pdmdb4.4.4``  |  |
-    | ``sysbench``    | ``ppg13``       | ``pdmdb4.4.5``  |  |
-    | ``proxysql``    | ``ppg13.1``     | ``pdmdb4.4.6``  |  |
-    | ``pt``          | ``ppg13.2``     |  |   |
+    | ``psmdb36``     | ``ppg12.2``     | ``pdmdb4.2.15`` | ``pdpxc8.0.21`` |
+    | ``psmdb40``     | ``ppg12.3``     | ``pdmdb4.4``    | ``pdpxc8.0.22`` |
+    | ``psmdb42``     | ``ppg12.4``     | ``pdmdb4.4.0``  | ``pdpxc8.0.23`` |
+    | ``psmdb44``     | ``ppg12.5``     | ``pdmdb4.4.1``  |  |
+    |                 | ``ppg12.6``     | ``pdmdb4.4.2``  |  |
+    |``mysql-shell``  | ``ppg12.7``     | ``pdmdb4.4.3``  |  |
+    | ``sysbench``    | ``ppg13``       | ``pdmdb4.4.4``  |  |
+    | ``proxysql``    | ``ppg13.1``     | ``pdmdb4.4.5``  |  |
+    | ``pt``          | ``ppg13.2``     | ``pdmdb4.4.6``  |   |
     | ``pmm-client``  | ``ppg13.3``     |  |   |
     | ``pmm2-client`` |  |   |   |
     | ``prel``        |  |   |   | 
@@ -259,6 +259,7 @@ Available repositories are:
     | `pdmdb-4.2.12`| Percona Distribution for MongoDB 4.2.12 |
     | `pdmdb-4.2.13`| Percona Distribution for MongoDB 4.2.13 |
     | `pdmdb-4.2.14`| Percona Distribution for MongoDB 4.2.14 |
+    | `pdmdb-4.2.15`| Percona Distribution for MongoDB 4.2.15 |
     | `pdmdb-4.4`   | Percona Distribution for MongoDB 4.4    |
     | `pdmdb-4.4.0` | Percona Distribution for MongoDB 4.4.0  |
     | `pdmdb-4.4.1` | Percona Distribution for MongoDB 4.4.1  |
