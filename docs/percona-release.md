@@ -3,6 +3,11 @@
 The **percona-release** configuration tool allows users to automatically
 configure which Percona repositories are enabled and disabled.
 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Examples](#examples-all-steps-for-installing-a-specific-percona-product)
+* [Updating percona-release to the latest version](#updating-percona-release-to-the-latest-version)
+
 ## Installation
 
 You can install `percona-release` with the package manager of your operating system. Use the following instructions:
@@ -17,6 +22,15 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
 If you are running a DEB-based distribution, such as Debian or Ubuntu,
 use the **apt** package manager to install the `percona-release`
 official package:
+
+!!! admonition "Prerequisites"
+
+    In Linux distributions that rely on `dpkg`, the packages `wget`, `gnupg2`, `curl` and `lsb-release` are already installed. However, these packages may be missing from Docker base images. In this case, install them manually before running `dpkg`:
+
+    ```
+    sudo apt-get update
+    sudo apt-get install -y wget gnupg2 curl lsb-release 
+    ```
 
 
 1. Fetch the repository package:
@@ -37,9 +51,9 @@ official package:
 can check the repository setup for the Percona original release list in the
 `/etc/apt/sources.list.d/percona-original-release.list` file.
 
-!!! note
+    !!! note
    
-    If you have enabled another repository, the file name is different.
+        If you have enabled another repository, the file name is different.
 
 
 4. Refresh the local cache to update the package information:
@@ -382,7 +396,7 @@ sudo percona-release setup psmdb42
 sudo apt-get install percona-server-mongodb-42
 ```
 
-## Updating **percona-release** to the Latest Version
+## Updating **percona-release** to the latest version
 
 **percona-release** itself is available from the *prel* repository which is enabled by default. Thus, to update **percona-release**, simply run the following command as root or via sudo:
 

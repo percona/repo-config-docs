@@ -4,3 +4,6 @@ source/ext/psdom.pyc
 site/
 source/__pycache__
 
+
+# Local Netlify folder
+.netlify
