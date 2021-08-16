@@ -89,6 +89,14 @@ extra: # Used in main.html template and can't be externalised
 
 nav:
   - index.md
-  - percona-release.md
-  - copyright.md
-  - trademark-policy.md
+  - Installation and update:
+    - installation-and-update.md
+    - installing.md
+    - updating.md
+  - Usage:
+    - usage.md
+    - percona-release.md
+    - repository-location.md
+  - Reference:
+    - copyright.md
+    - trademark-policy.md
