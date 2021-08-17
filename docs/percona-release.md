@@ -90,12 +90,12 @@ chosen from the following table (the names of products are self-explanatory):
     | ``psmdb40``     | ``ppg12.3``     | ``pdmdb4.4``    | ``pdpxc8.0.22`` |
     | ``psmdb42``     | ``ppg12.4``     | ``pdmdb4.4.0``  | ``pdpxc8.0.23`` |
     | ``psmdb44``     | ``ppg12.5``     | ``pdmdb4.4.1``  |  |
-    |                 | ``ppg12.6``     | ``pdmdb4.4.2``  |  |
+    | ``psmdb50``     | ``ppg12.6``     | ``pdmdb4.4.2``  |  |
     |``mysql-shell``  | ``ppg12.7``     | ``pdmdb4.4.3``  |  |
     | ``sysbench``    | ``ppg13``       | ``pdmdb4.4.4``  |  |
     | ``proxysql``    | ``ppg13.1``     | ``pdmdb4.4.5``  |  |
     | ``pt``          | ``ppg13.2``     | ``pdmdb4.4.6``  |   |
-    | ``pmm-client``  | ``ppg13.3``     |  |   |
+    | ``pmm-client``  | ``ppg13.3``     | ``pdmdb4.4.8``  |   |
     | ``pmm2-client`` |  |   |   |
     | ``prel``        |  |   |   | 
 
