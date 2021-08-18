@@ -43,6 +43,7 @@ Available repositories are:
     | `psmdb-40`    | Percona Server for MongoDB 4.0          |
     | `psmdb-42`    | Percona Server for MongoDB 4.2          |
     | `psmdb-44`    | Percona Server for MongoDB 4.4          |
+    | `psmdb-50`    | Percona Server for MongoDB 5.0          |
     | `pbm`         | Percona Backup for MongoDB              |
     | `pdmdb-4.2`   | Percona Distribution for MongoDB 4.2    |
     | `pdmdb-4.2.6` | Percona Distribution for MongoDB 4.2.6  |
@@ -63,6 +64,8 @@ Available repositories are:
     | `pdmdb-4.4.4` | Percona Distribution for MongoDB 4.4.4  |
     | `pdmdb-4.4.5` | Percona Distribution for MongoDB 4.4.5  |
     | `pdmdb-4.4.6` | Percona Distribution for MongoDB 4.4.6  |
+    | `pdmdb-4.4.8` | Percona Distribution for MongoDB 4.4.8  |
+
 
 &nbsp;  
 
