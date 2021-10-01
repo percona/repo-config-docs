@@ -9,7 +9,7 @@ using the corresponding package manager for your system:
 
 
 * **yum** for [Red Hat Enterprise Linux and derivatives
-(including CentOS, Oracle Linux, Amazon Linux AMI, etc.)](#install-on-red-hat-enterpise-linux-and-centos)
+(including CentOS, Oracle Linux, Amazon Linux AMI, etc.)](#install-on-red-hat-enterprise-linux-and-centos)
 
 Find information about supported platforms on the [Percona Release Lifecycle Overview](https://www.percona.com/services/policies/percona-software-support-lifecycle#support).
 
