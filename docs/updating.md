@@ -9,13 +9,13 @@
    1. Update the local cache
 
       ```
-      apt-get update
+      apt update
       ```
 
    2. Update percona-release
   
       ```   
-      apt-get install percona-release
+      apt install percona-release
       ```
 
 * For RHEL/CentOS:
