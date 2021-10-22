@@ -24,8 +24,8 @@ official package:
     In Linux distributions that rely on `dpkg`, the packages `wget`, `gnupg2`, `curl` and `lsb-release` are already installed. However, these packages may be missing from Docker base images. In this case, install them manually before running `dpkg`:
 
     ```
-    sudo apt-get update
-    sudo apt-get install -y wget gnupg2 curl lsb-release 
+    sudo apt update
+    sudo apt install -y wget gnupg2 curl lsb-release 
     ```
 
 
@@ -55,7 +55,7 @@ can check the repository setup for the Percona original release list in the
 4. Refresh the local cache to update the package information:
 
     ```
-    sudo apt-get update
+    sudo apt update
     ```
 
 !!! admonition "Dealing with issues"
@@ -70,7 +70,7 @@ can check the repository setup for the Percona original release list in the
     In this case, run the following command:
 
     ```
-    sudo apt-get install --fix-broken
+    sudo apt install --fix-broken
     ```
 
 > **Next steps**:  run the ``percona-release`` command to

@@ -138,8 +138,8 @@ wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 sudo dpkg -i percona-release_latest.generic_all.deb
 sudo percona-release enable-only ps-80 release
 sudo percona-release enable tools release
-sudo apt-get update
-sudo apt-get install percona-server-server percona-server-client percona-toolkit percona-xtrabackup-80 sysbench
+sudo apt update
+sudo apt install percona-server-server percona-server-client percona-toolkit percona-xtrabackup-80 sysbench
 ```
 
 ### Percona Server for MySQL 8.0 release package on CentOS or other RPM-based systems:
@@ -156,6 +156,6 @@ sudo yum install percona-server-server
 wget https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
 sudo percona-release setup psmdb42
-sudo apt-get install percona-server-mongodb-42
+sudo apt install percona-server-mongodb-42
 ```
 
