@@ -98,7 +98,7 @@ chosen from the following table (the names of products are self-explanatory):
     | ``pmm-client``  | ``ppg13.1``     | ``pdmdb4.4.6``  |   |
     | ``pmm2-client`` | ``ppg13.2``     | ``pdmdb4.4.8``  |   |
     | ``prel``        | ``ppg13.3``     | ``pdmdb4.4.9``  |   |
-    |                 | ``ppg13.4``
+    |                 | ``ppg13.4``     | ``pdmdb4.4.10`` |   |
 
 
 &nbsp;  
