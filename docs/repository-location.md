@@ -33,6 +33,7 @@ Available repositories are:
     | `pdpxc-8.0.21`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.21 |
     | `pdpxc-8.0.22`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.22 |
     | `pdpxc-8.0.23`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.23 |
+    | `pdpxc-8.0.25`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.25 |
   
 &nbsp;  
 
@@ -101,7 +102,10 @@ Available repositories are:
     | `ppg-13.1`    | Percona Distribution for PostgreSQL 13.1  |
     | `ppg-13.2`    | Percona Distribution for PostgreSQL 13.2  |
     | `ppg-13.3`    | Percona Distribution for PostgreSQL 13.3  |
-    | `ppg-13.4`    | Percona Distribution for PostgreSQL 13.3  |
+    | `ppg-13.4`    | Percona Distribution for PostgreSQL 13.4  |
+    | `ppg-13.5`    | Percona Distribution for PostgreSQL 13.5  |
+    | `ppg-14.1`    | Percona Distribution for PostgreSQL 14.1  |
+    
 
 &nbsp;  
 
