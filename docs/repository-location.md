@@ -96,6 +96,7 @@ Available repositories are:
     | `ppg-12.6`    | Percona Distribution for PostgreSQL 12.6  |
     | `ppg-12.7`    | Percona Distribution for PostgreSQL 12.7  |
     | `ppg-12.8`    | Percona Distribution for PostgreSQL 12.8  |
+    | `ppg-12.9`    | Percona Distribution for PostgreSQL 12.9  |
     | `ppg-13`      | Percona Distribution for PostgreSQL 13    |
     | `ppg-13.0`    | Percona Distribution for PostgreSQL 13.0  |
     | `ppg-13.1`    | Percona Distribution for PostgreSQL 13.1  |
