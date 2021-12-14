@@ -94,11 +94,12 @@ chosen from the following table (the names of products are self-explanatory):
     |``mysql-shell``  | ``ppg12.6``     | ``pdmdb4.4.2``  |  |
     | ``sysbench``    | ``ppg12.7``     | ``pdmdb4.4.3``  |  |
     | ``proxysql``    | ``ppg12.8``     | ``pdmdb4.4.4``  |  |
-    | ``pt``          | ``ppg13``       | ``pdmdb4.4.5``  |   |
-    | ``pmm-client``  | ``ppg13.1``     | ``pdmdb4.4.6``  |   |
-    | ``pmm2-client`` | ``ppg13.2``     | ``pdmdb4.4.8``  |   |
-    | ``prel``        | ``ppg13.3``     | ``pdmdb4.4.9``  |   |
-    |                 | ``ppg13.4``     | ``pdmdb4.4.10`` |   |
+    | ``pt``          | ``ppg12.9``     | ``pdmdb4.4.5``  |   |
+    | ``pmm-client``  | ``ppg13``       | ``pdmdb4.4.6``  |   |
+    | ``pmm2-client`` | ``ppg13.1``     | ``pdmdb4.4.8``  |   |
+    | ``prel``        | ``ppg13.2``     | ``pdmdb4.4.9``  |   |
+    |                 | ``ppg13.3``     | ``pdmdb4.4.10`` |   |
+    |                 | ``ppg13.4``     |   | |
 
 
 &nbsp;  
