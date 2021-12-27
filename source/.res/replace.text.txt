@@ -1,2 +1,0 @@
-
-.. |page-contents-moved| replace:: This page is now part of another section

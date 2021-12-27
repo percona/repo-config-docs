@@ -1,2 +1,0 @@
-
-.. |percona-release| replace:: :program:`percona-release`
