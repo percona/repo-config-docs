@@ -88,6 +88,7 @@ Available repositories are:
     | `ppg-11.11`   | Percona Distribution for PostgreSQL 11.11 |
     | `ppg-11.12`   | Percona Distribution for PostgreSQL 11.12 |
     | `ppg-11.13`   | Percona Distribution for PostgreSQL 11.13 |
+    | `ppg-11.14`   | Percona Distribution for PostgreSQL 11.14 |
     | `ppg-12`      | Percona Distribution for PostgreSQL 12    |
     | `ppg-12.2`    | Percona Distribution for PostgreSQL 12.2  |
     | `ppg-12.3`    | Percona Distribution for PostgreSQL 12.3  |
