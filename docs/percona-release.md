@@ -102,6 +102,7 @@ chosen from the following table (the names of products are self-explanatory):
     |                 | ``ppg13.5``     |   |   |
     |                 | ``ppg14.1``     |   |   |
 
+
 &nbsp;  
 
 The following example disables all Percona repository locations and then
