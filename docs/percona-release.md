@@ -99,8 +99,8 @@ chosen from the following table (the names of products are self-explanatory):
     | ``pmm2-client`` | ``ppg13  ``     | ``pdmdb4.4.8``  |   |
     | ``prel``        | ``ppg13.1``     | ``pdmdb4.4.9``  |   |
     |                 | ``ppg13.2``     | ``pdmdb4.4.10`` |   |
-    |                 | ``ppg13.3``     |   | |
-    |                 | ``ppg13.4``     |   | |
+    |                 | ``ppg13.3``     | ``pdmdb5.0``    | |
+    |                 | ``ppg13.4``     | ``pdmdb5.0.5``  | |
 
 
 &nbsp;  
