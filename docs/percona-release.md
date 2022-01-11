@@ -101,6 +101,9 @@ chosen from the following table (the names of products are self-explanatory):
     |                 | ``ppg13.2``     | ``pdmdb4.4.10`` |   |
     |                 | ``ppg13.3``     | ``pdmdb5.0``    | |
     |                 | ``ppg13.4``     | ``pdmdb5.0.5``  | |
+    |                 | ``ppg13.5``     |   |   |
+    |                 | ``ppg14.1``     |   |   |
+
 
 
 &nbsp;  
