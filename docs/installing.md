@@ -6,12 +6,12 @@ using the corresponding package manager for your system:
 
 
 * **apt** for [Debian and Ubuntu](#install-on-debian-and-ubuntu)
-
-
 * **yum** for [Red Hat Enterprise Linux and derivatives
 (including CentOS, Oracle Linux, Amazon Linux AMI, etc.)](#install-on-red-hat-enterprise-linux-and-centos)
 
 Find information about supported platforms on the [Percona Release Lifecycle Overview](https://www.percona.com/services/policies/percona-software-support-lifecycle#support).
+
+Alternatively, you can [download percona-release from Percona website](#download-from-percona-website)
 
 ### Install on Debian and Ubuntu
 
@@ -111,3 +111,22 @@ $ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rp
     * [Percona Distribution for PostgreSQL](https://www.percona.com/doc/postgresql/LATEST/installing.html#on-red-hat-enterprise-linux-and-centos-using-yum)
     * [Percona Distribution for MongoDB](https://www.percona.com/doc/percona-distribution-for-mongodb/LATEST/installation.html#install-on-red-hat-enterprise-linux-centos)
     * [Percona Distribution for MySQL](https://www.percona.com/doc/percona-distribution-mysql/8.0/installing.html#install-pdmysql) 
+
+
+## Download and install percona-release from the website
+
+1. On the [download page](https://www.percona.com/downloads/percona-release/), select the desired `percona-release` version from the _Version_ drop down.
+2. Download the `percona-release` package, relevant to your operating system. 
+3. Install `percona-release` using the command, relevant to your operating system:
+
+   * On Debian and Ubuntu:
+
+      ```sh
+      sudo dpkg -i percona-release_latest.generic_all.deb
+      ```
+
+   * On Red Hat Enterprise Linux and derivatives:
+
+      ```sh
+      sudo rpm -i percona-release-<version>.noarch.rpm
+      ```
