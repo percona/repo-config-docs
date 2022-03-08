@@ -84,15 +84,15 @@ chosen from the following table (the names of products are self-explanatory):
     |  ``pxc56``      | ``ppg11.9``     | ``pdmdb4.2.10`` | ``pdps8.0.23``  |
     |  ``pxc57``      | ``ppg11.10``    | ``pdmdb4.2.11`` | ``pdps8.0.25``  |
     |  ``pxc80``      | ``ppg11.12``    | ``pdmdb4.2.12`` | ``pdps8.0.26``  |
-    | ``pbm``         | ``ppg11.13``    | ``pdmdb4.2.13`` | ``pdpxc8.0``    |
-    | ``psmdb34``     | ``ppg11.14``    | ``pdmdb4.2.14`` | ``pdpxc8.0.19`` |
-    | ``psmdb36``     | ``ppg12  ``     | ``pdmdb4.2.15`` | ``pdpxc8.0.20`` |
-    | ``psmdb40``     | ``ppg12.1``     | ``pdmdb4.2.17`` | ``pdpxc8.0.21`` |
-    | ``psmdb42``     | ``ppg12.2``     | ``pdmdb4.2.18`` | ``pdpxc8.0.22`` |
-    | ``psmdb44``     | ``ppg12.3``     | ``pdmdb4.4``    | ``pdpxc8.0.23`` |
-    | ``psmdb50``     | ``ppg12.4``     | ``pdmdb4.4.0``  |  |
-    |``mysql-shell``  | ``ppg12.5``     | ``pdmdb4.4.1``  |  |
-    | ``sysbench``    | ``ppg12.6``     | ``pdmdb4.4.2``  |  |
+    | ``pbm``         | ``ppg11.13``    | ``pdmdb4.2.13`` | ``pdps8.0.27``  |
+    | ``psmdb34``     | ``ppg11.14``    | ``pdmdb4.2.14`` | ``pdpxc8.0``    |
+    | ``psmdb36``     | ``ppg12  ``     | ``pdmdb4.2.15`` | ``pdpxc8.0.19`` |
+    | ``psmdb40``     | ``ppg12.1``     | ``pdmdb4.2.17`` | ``pdpxc8.0.20`` |
+    | ``psmdb42``     | ``ppg12.2``     | ``pdmdb4.2.18`` | ``pdpxc8.0.21`` |
+    | ``psmdb44``     | ``ppg12.3``     | ``pdmdb4.4``    | ``pdpxc8.0.22`` |
+    | ``psmdb50``     | ``ppg12.4``     | ``pdmdb4.4.0``  | ``pdpxc8.0.23`` |
+    |``mysql-shell``  | ``ppg12.5``     | ``pdmdb4.4.1``  | ``pdpxc8.0.25`` |
+    | ``sysbench``    | ``ppg12.6``     | ``pdmdb4.4.2``  | ``pdpxc8.0.26`` |
     | ``proxysql``    | ``ppg12.7``     | ``pdmdb4.4.3``  |  |
     | ``pt``          | ``ppg12.8``     | ``pdmdb4.4.4``  |   |
     | ``pmm-client``  | ``ppg12.9``     | ``pdmdb4.4.5``  |   |
@@ -100,9 +100,10 @@ chosen from the following table (the names of products are self-explanatory):
     | ``prel``        | ``ppg13.1``     | ``pdmdb4.4.8``  |   |
     |                 | ``ppg13.2``     | ``pdmdb4.4.9``  |   |
     |                 | ``ppg13.3``     | ``pdmdb4.4.10`` | |
-    |                 | ``ppg13.4``     | ``pdmdb5.0``    | |
-    |                 | ``ppg13.5``     | ``pdmdb5.0.5``  |   |
-    |                 | ``ppg14.1``     |   |   |
+    |                 | ``ppg13.4``     | ``pdmdb4.4.12``    | |
+    |                 | ``ppg13.5``     | ``pdmdb5.0``  |   |
+    |                 | ``ppg14.1``     | ``pdmdb5.0.5`` |   |
+    |                 |                 | ``pdmdb5.0.6`` | |
 
 
 
