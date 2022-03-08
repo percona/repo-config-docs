@@ -27,6 +27,7 @@ Available repositories are:
     | `pdps-8.0.23` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.23 |
     | `pdps-8.0.25` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.25 |
     | `pdps-8.0.26` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.26 |
+    | `pdps-8.0.27` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.27 |
     | `pdpxc-8.0`   |Percona Distribution for MySQL using Percona XtraDB Cluster 8.0  |
     | `pdpxc-8.0.19`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.19|
     | `pdpxc-8.0.20`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.20 |
@@ -34,6 +35,7 @@ Available repositories are:
     | `pdpxc-8.0.22`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.22 |
     | `pdpxc-8.0.23`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.23 |
     | `pdpxc-8.0.25`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.25 |
+    | `pdpxc-8.0.26`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.26 |
   
 &nbsp;  
 
@@ -71,8 +73,10 @@ Available repositories are:
     | `pdmdb-4.4.8` | Percona Distribution for MongoDB 4.4.8  |
     | `pdmdb-4.4.9` | Percona Distribution for MongoDB 4.4.9  |
     | `pdmdb-4.4.10`| Percona Distribution for MongoDB 4.4.10 |
+    | `pdmdb-4.4.12`| Percona Distribution for MongoDB 4.4.12 |
     | `pdmdb-5.0`   | Percona Distribution for MongoDB 5.0    |
     | `pdmdb-5.0.5` | Percona Distribution for MongoDB 5.0.5  |
+    | `pdmdb-5.0.6` | Percona Distribution for MongoDB 5.0.6  |
     
     
 
