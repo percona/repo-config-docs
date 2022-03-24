@@ -100,10 +100,11 @@ chosen from the following table (the names of products are self-explanatory):
     | ``prel``        | ``ppg13.1``     | ``pdmdb4.4.8``  |   |
     |                 | ``ppg13.2``     | ``pdmdb4.4.9``  |   |
     |                 | ``ppg13.3``     | ``pdmdb4.4.10`` | |
-    |                 | ``ppg13.4``     | ``pdmdb4.4.12``    | |
-    |                 | ``ppg13.5``     | ``pdmdb5.0``  |   |
-    |                 | ``ppg14.1``     | ``pdmdb5.0.5`` |   |
-    |                 |                 | ``pdmdb5.0.6`` | |
+    |                 | ``ppg13.4``     | ``pdmdb4.4.12``  | |
+    |                 | ``ppg13.5``     | ``pdmdb4.4.13``  |   |
+    |                 | ``ppg13.6``     | ``pdmdb5.0``     |   |
+    |                 | ``ppg14.1``     | ``pdmdb5.0.5`` | |
+    |                 | ``ppg14.2``     | ``pdmdb5.0.6`` | |
 
 
 
