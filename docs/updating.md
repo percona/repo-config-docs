@@ -3,23 +3,23 @@
 **percona-release** itself is available from the *prel* repository which is enabled by default. Thus, to update **percona-release**, simply run the following command as root or via sudo:
 
 
-* For Debian and Ubuntu:
+=== "For Debian and Ubuntu"
 
   
-   1. Update the local cache
+     1. Update the local cache
 
-      ```
-      apt update
-      ```
+        ```
+        apt update
+        ```
 
-   2. Update percona-release
-  
-      ```   
-      apt install percona-release
-      ```
+     2. Update percona-release
+    
+        ```   
+        apt install percona-release
+        ```
 
-* For RHEL/CentOS:
+=== "For RHEL/CentOS"
 
-   ```
-   yum update percona-release
-   ```
+    ```
+    yum update percona-release
+    ```
