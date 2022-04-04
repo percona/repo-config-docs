@@ -65,7 +65,8 @@ markdown_extensions:
         smart_angled_quotes: true
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+        alternate_style: true 
   - pymdownx.tilde
   - pymdownx.superfences
   - pymdownx.details
