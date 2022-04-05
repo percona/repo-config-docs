@@ -96,15 +96,16 @@ chosen from the following table (the names of products are self-explanatory):
     | ``proxysql``    | ``ppg12.7``     | ``pdmdb4.4.3``  |  |
     | ``pt``          | ``ppg12.8``     | ``pdmdb4.4.4``  |   |
     | ``pmm-client``  | ``ppg12.9``     | ``pdmdb4.4.5``  |   |
-    | ``pmm2-client`` | ``ppg13  ``     | ``pdmdb4.4.6``  |   |
-    | ``prel``        | ``ppg13.1``     | ``pdmdb4.4.8``  |   |
-    |                 | ``ppg13.2``     | ``pdmdb4.4.9``  |   |
-    |                 | ``ppg13.3``     | ``pdmdb4.4.10`` | |
-    |                 | ``ppg13.4``     | ``pdmdb4.4.12``  | |
-    |                 | ``ppg13.5``     | ``pdmdb4.4.13``  |   |
-    |                 | ``ppg13.6``     | ``pdmdb5.0``     |   |
-    |                 | ``ppg14.1``     | ``pdmdb5.0.5`` | |
-    |                 | ``ppg14.2``     | ``pdmdb5.0.6`` | |
+    | ``pmm2-client`` | ``ppg12.10``    | ``pdmdb4.4.6``  |   |
+    | ``prel``        | ``ppg13``       | ``pdmdb4.4.8``  |   |
+    |                 | ``ppg13.1``     | ``pdmdb4.4.9``  |   |
+    |                 | ``ppg13.2``     | ``pdmdb4.4.10`` | |
+    |                 | ``ppg13.3``     | ``pdmdb4.4.12``  | |
+    |                 | ``ppg13.4``     | ``pdmdb4.4.13``  |   |
+    |                 | ``ppg13.5``     | ``pdmdb5.0``     |   |
+    |                 | ``ppg13.6``     | ``pdmdb5.0.5`` | |
+    |                 | ``ppg14.1``     | ``pdmdb5.0.6`` | |
+    |                 | ``ppg14.2`` 
 
 
 
