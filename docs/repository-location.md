@@ -79,6 +79,7 @@ Available repositories are:
     | `pdmdb-5.0`   | Percona Distribution for MongoDB 5.0    |
     | `pdmdb-5.0.5` | Percona Distribution for MongoDB 5.0.5  |
     | `pdmdb-5.0.6` | Percona Distribution for MongoDB 5.0.6  |
+    | `pdmdb-5.0.7` | Percona Distribution for MongoDB 5.0.7  |
     
     
 
