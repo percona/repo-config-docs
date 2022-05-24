@@ -73,7 +73,7 @@ Alternatively, you can [download percona-release from Percona website](#download
         sudo apt install --fix-broken
         ```
 
-    !!! seeaslso
+    !!! admonition "See also"
 
         Debian and Ubuntu with the apt package manager:
 
@@ -94,7 +94,7 @@ Alternatively, you can [download percona-release from Percona website](#download
     $ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
     ```
 
-    !!! seeaslso
+    !!! admonition "See also"
 
         Red Hat and CentOS with the yum package manager:
 
