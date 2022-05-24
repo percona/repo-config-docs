@@ -73,7 +73,7 @@ Alternatively, you can [download percona-release from Percona website](#download
         sudo apt install --fix-broken
         ```
 
-    !!! seeaslso
+    !!! see also
 
         Debian and Ubuntu with the apt package manager:
 
