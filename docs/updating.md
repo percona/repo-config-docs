@@ -1,25 +1,23 @@
-# Updating percona-release to the latest version
+# Updating `percona-release` to the latest version
 
-**percona-release** itself is available from the *prel* repository which is enabled by default. Thus, to update **percona-release**, simply run the following command as root or via sudo:
+`percona-release` itself is available from the *prel* repository which is enabled by default. Thus, to update `percona-release`, simply run the following command as root or via `sudo`:
 
-
-=== "For Debian and Ubuntu"
-
+=== "Debian and Ubuntu Linux"
   
-     1. Update the local cache
+   1. Update the local cache first
 
-        ```
-        apt update
-        ```
+      ``` sh
+      sudo apt update
+      ```
 
-     2. Update percona-release
-    
-        ```   
-        apt install percona-release
-        ```
+   2. Update `percona-release`
+  
+      ``` sh
+      sudo apt upgrade percona-release
+      ```
 
-=== "For RHEL/CentOS"
+=== "Red Hat Enterprise Linux (and compatible derivatives)"
 
-    ```
-    yum update percona-release
-    ```
+   ``` sh
+   sudo yum update percona-release
+   ```
