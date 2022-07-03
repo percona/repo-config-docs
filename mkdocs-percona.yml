@@ -5,7 +5,7 @@ site_description: Documentation
 site_author: Percona LLC
 copyright: Percona LLC, &#169; 2021
 
-site_url: 'https://www.percona.com/doc/percona-repo-config/'
+site_url: 'https://docs.percona.com/percona-software-repositories/'
 repo_name: /percona/repo-config-docs
 repo_url: https://github.com/percona/repo-config-docs
 edit_uri: edit/master/docs/
