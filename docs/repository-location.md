@@ -66,6 +66,7 @@ Available repositories are:
     | `pdmdb-4.2.18`| Percona Distribution for MongoDB 4.2.18 |
     | `pdmdb-4.2.19`| Percona Distribution for MongoDB 4.2.19 |
     | `pdmdb-4.2.20`| Percona Distribution for MongoDB 4.2.20 |
+    | `pdmdb-4.2.21`| Percona Distribution for MongoDB 4.2.21 |
     | `pdmdb-4.4`   | Percona Distribution for MongoDB 4.4    |
     | `pdmdb-4.4.0` | Percona Distribution for MongoDB 4.4.0  |
     | `pdmdb-4.4.1` | Percona Distribution for MongoDB 4.4.1  |
@@ -85,7 +86,7 @@ Available repositories are:
     | `pdmdb-5.0.6` | Percona Distribution for MongoDB 5.0.6  |
     | `pdmdb-5.0.7` | Percona Distribution for MongoDB 5.0.7  |
     | `pdmdb-5.0.8` | Percona Distribution for MongoDB 5.0.8  |
-    
+    | `pdmdb-5.0.9` | Percona Distribution for MongoDB 5.0.9  |
     
 
 
@@ -130,6 +131,7 @@ Available repositories are:
     | `ppg-14.1`    | Percona Distribution for PostgreSQL 14.1  |
     | `ppg-14.2`    | Percona Distribution for PostgreSQL 14.2  |
     | `ppg-14.3`    | Percona Distribution for PostgreSQL 14.3  |
+    | `ppg-14.4`    | Percona Distribution for PostgreSQL 14.4  |
 
     
 
