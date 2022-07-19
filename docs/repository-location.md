@@ -38,6 +38,7 @@ Available repositories are:
     | `pdpxc-8.0.25`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.25 |
     | `pdpxc-8.0.26`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.26 |
     | `pdpxc-8.0.27`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.27 |
+    | `pdpxc-8.0.28`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.28 |
   
 &nbsp;  
 
@@ -81,6 +82,7 @@ Available repositories are:
     | `pdmdb-4.4.12`| Percona Distribution for MongoDB 4.4.12 |
     | `pdmdb-4.4.13`| Percona Distribution for MongoDB 4.4.13 |
     | `pdmdb-4.4.14`| Percona Distribution for MongoDB 4.4.14 |
+    | `pdmdb-4.4.15`| Percona Distribution for MongoDB 4.4.15 |
     | `pdmdb-5.0`   | Percona Distribution for MongoDB 5.0    |
     | `pdmdb-5.0.5` | Percona Distribution for MongoDB 5.0.5  |
     | `pdmdb-5.0.6` | Percona Distribution for MongoDB 5.0.6  |
