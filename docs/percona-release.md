@@ -129,5 +129,5 @@ sudo yum install percona-server-server
 curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
 sudo apt install ./percona-release_latest.generic_all.deb
 sudo percona-release setup psmdb42
-sudo apt install percona-server-mongodb-42
+sudo apt install percona-server-mongodb
 ```
