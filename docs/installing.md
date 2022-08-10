@@ -89,5 +89,5 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/yum.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/yum_repo.html)
-    * [Percona XtraDB Cluster](https://www.percona.com/doc/percona-xtradb-cluster/LATEST/install/yum.html)
+    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtrabackup/latest/index.html)
 
