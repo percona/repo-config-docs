@@ -69,6 +69,7 @@ Available repositories are:
     | `pdmdb-4.2.19`| Percona Distribution for MongoDB 4.2.19 |
     | `pdmdb-4.2.20`| Percona Distribution for MongoDB 4.2.20 |
     | `pdmdb-4.2.21`| Percona Distribution for MongoDB 4.2.21 |
+    | `pdmdb-4.2.22`| Percona Distribution for MongoDB 4.2.22 |
     | `pdmdb-4.4`   | Percona Distribution for MongoDB 4.4    |
     | `pdmdb-4.4.0` | Percona Distribution for MongoDB 4.4.0  |
     | `pdmdb-4.4.1` | Percona Distribution for MongoDB 4.4.1  |
@@ -84,6 +85,7 @@ Available repositories are:
     | `pdmdb-4.4.13`| Percona Distribution for MongoDB 4.4.13 |
     | `pdmdb-4.4.14`| Percona Distribution for MongoDB 4.4.14 |
     | `pdmdb-4.4.15`| Percona Distribution for MongoDB 4.4.15 |
+    | `pdmdb-4.4.16`| Percona Distribution for MongoDB 4.4.16 |
     | `pdmdb-5.0`   | Percona Distribution for MongoDB 5.0    |
     | `pdmdb-5.0.5` | Percona Distribution for MongoDB 5.0.5  |
     | `pdmdb-5.0.6` | Percona Distribution for MongoDB 5.0.6  |
@@ -91,6 +93,7 @@ Available repositories are:
     | `pdmdb-5.0.8` | Percona Distribution for MongoDB 5.0.8  |
     | `pdmdb-5.0.9` | Percona Distribution for MongoDB 5.0.9  |
     | `pdmdb-5.0.10`| Percona Distribution for MongoDB 5.0.10 |
+    | `pdmdb-5.0.11`| Percona Distribution for MongoDB 5.0.11 |
     
 
 
@@ -112,6 +115,8 @@ Available repositories are:
     | `ppg-11.13`   | Percona Distribution for PostgreSQL 11.13 |
     | `ppg-11.14`   | Percona Distribution for PostgreSQL 11.14 |
     | `ppg-11.15`   | Percona Distribution for PostgreSQL 11.15 |
+    | `ppg-11.16`   | Percona Distribution for PostgreSQL 11.16 |
+    | `ppg-11.17`   | Percona Distribution for PostgreSQL 11.17 |
     | `ppg-12`      | Percona Distribution for PostgreSQL 12    |
     | `ppg-12.2`    | Percona Distribution for PostgreSQL 12.2  |
     | `ppg-12.3`    | Percona Distribution for PostgreSQL 12.3  |
@@ -123,6 +128,7 @@ Available repositories are:
     | `ppg-12.9`    | Percona Distribution for PostgreSQL 12.9  |
     | `ppg-12.10`   | Percona Distribution for PostgreSQL 12.10 |
     | `ppg-12.11`   | Percona Distribution for PostgreSQL 12.11 |
+    | `ppg-12.12`   | Percona Distribution for PostgreSQL 12.12 |
     | `ppg-13`      | Percona Distribution for PostgreSQL 13    |
     | `ppg-13.0`    | Percona Distribution for PostgreSQL 13.0  |
     | `ppg-13.1`    | Percona Distribution for PostgreSQL 13.1  |
@@ -132,10 +138,12 @@ Available repositories are:
     | `ppg-13.5`    | Percona Distribution for PostgreSQL 13.5  |
     | `ppg-13.6`    | Percona Distribution for PostgreSQL 13.6  |
     | `ppg-13.7`    | Percona Distribution for PostgreSQL 13.7  |
+    | `ppg-13.8`    | Percona Distribution for PostgreSQL 13.8  |
     | `ppg-14.1`    | Percona Distribution for PostgreSQL 14.1  |
     | `ppg-14.2`    | Percona Distribution for PostgreSQL 14.2  |
     | `ppg-14.3`    | Percona Distribution for PostgreSQL 14.3  |
     | `ppg-14.4`    | Percona Distribution for PostgreSQL 14.4  |
+    | `ppg-14.5`    | Percona Distribution for PostgreSQL 14.5  |
 
     
 
