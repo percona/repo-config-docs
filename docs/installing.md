@@ -78,7 +78,7 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/apt.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/apt_repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtrabackup/latest/index.html)
+    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/apt.html#apt)
 
 
 === "Red Hat Enterprise Linux and derivatives with the `yum` package manager"
@@ -89,5 +89,5 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/yum.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/yum_repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtrabackup/latest/index.html)
+    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/yum.html#yum)
 
