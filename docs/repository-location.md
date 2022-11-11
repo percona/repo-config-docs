@@ -53,12 +53,20 @@ Available repositories are:
 
     | Repository    | Product Packages                        |
     | ------------- | ------------------------------------    |
+    | `psmdb-60`    | Percona Server for MongoDB 6.0          |
     | `psmdb-50`    | Percona Server for MongoDB 5.0          |
     | `psmdb-44`    | Percona Server for MongoDB 4.4          |
     | `psmdb-42`    | Percona Server for MongoDB 4.2          |
     | `psmdb-40`    | Percona Server for MongoDB 4.0          |
     | `psmdb-36`    | Percona Server for MongoDB 3.6          |
     | `pbm`         | Percona Backup for MongoDB              |
+
+    ??? admonition "Percona Distribution for MongoDB 6.0.x"
+
+        | Repository    | Description                             |
+        | ------------- | ------------------------------------    |
+        | `pdmdb-6.0`   | Percona Distribution for MongoDB 6.0    |
+        | `pdmdb-6.0.2` | Percona Distribution for MongoDB 6.0.2  |
 
     ??? admonition "Percona Distribution for MongoDB 5.0.x"
 
@@ -95,6 +103,7 @@ Available repositories are:
         | `pdmdb-4.4.14`| Percona Distribution for MongoDB 4.4.14 |
         | `pdmdb-4.4.15`| Percona Distribution for MongoDB 4.4.15 |
         | `pdmdb-4.4.16`| Percona Distribution for MongoDB 4.4.16 |
+        | `pdmdb-4.4.17`| Percona Distribution for MongoDB 4.4.17 |
         
     ??? admonition "Percona Distribution for MongoDB 4.2.x"
 
@@ -117,6 +126,7 @@ Available repositories are:
         | `pdmdb-4.2.20`| Percona Distribution for MongoDB 4.2.20 |
         | `pdmdb-4.2.21`| Percona Distribution for MongoDB 4.2.21 |
         | `pdmdb-4.2.22`| Percona Distribution for MongoDB 4.2.22 |
+        | `pdmdb-4.2.23`| Percona Distribution for MongoDB 4.2.23 |
 
 
 &nbsp;  
