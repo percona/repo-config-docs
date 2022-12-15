@@ -23,8 +23,8 @@ Available commands are [enable](#enable), [enable-only](#enable-only), [disable]
 
 The command shows the enabled repositories in your system:
 
-``` sh
-sudo percona-release show
+```{.bash data-prompt="$"}
+$ sudo percona-release show
 ```
 
 
@@ -34,8 +34,8 @@ The command turns on an additional Percona [repository location](repository-loca
 For example, the following command enables the `ps-80 release` repository
 location:
 
-```sh
-sudo percona-release enable ps-80 release
+```{.bash data-prompt="$"}
+$ sudo percona-release enable ps-80 release
 ```
 
 
@@ -46,8 +46,8 @@ enables the listed repository location after that. The following example first
 disables all Percona repository locations and then enables `psmdb-40
 experimental`:
 
-```sh
-sudo percona-release enable-only psmdb-40 experimental
+```{.bash data-prompt="$"}
+$ sudo percona-release enable-only psmdb-40 experimental
 ```
 
 
@@ -57,7 +57,7 @@ The command disables the specified repositories. The `all` flag disables all rep
 
 For example, the following command will disable all repository locations:
 
-```
+```{.bash data-prompt="$"}
 $ sudo percona-release disable all
 ```
 
@@ -81,8 +81,8 @@ enables the `release` repository for *Percona Server for MySQL* 8.0. This
 command runs in the interactive mode and may request extra input from you,
 depending on your platform.
 
-```
-percona-release setup ps80
+```{.bash data-prompt="$"}
+$ percona-release setup ps80
 ```
 
 In non-interactive contexts, such as in scripts, requests for extra input may
@@ -90,44 +90,44 @@ halt the program.  Run the `setup` command with the `-y` option to provide
 the affirmative answer where input from the user would be requested in the
 interactive mode.
 
-```
-percona-release setup -y ps80
+```{.bash data-prompt="$"}
+$ percona-release setup -y ps80
 ```
 ## Examples: All steps for installing a specific Percona product
 
 ### Percona XtraDB Cluster 8.0 on CentOS 7:
 
-```
-sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
-sudo percona-release enable-only pxc-80 release
-sudo percona-release enable tools release
-sudo yum install percona-xtradb-cluster
+```{.bash data-prompt="$"}
+$ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
+$ sudo percona-release enable-only pxc-80 release
+$ sudo percona-release enable tools release
+$ sudo yum install percona-xtradb-cluster
 ```
 
 ### Percona Server for MySQL 8.0, Percona Toolkit, Percona XtraBackup and Sysbench on Ubuntu 18.04:
 
-```
-curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
-sudo apt install ./percona-release_latest.generic_all.deb
-sudo percona-release enable-only ps-80 release
-sudo percona-release enable tools release
-sudo apt update
-sudo apt install percona-server-server percona-server-client percona-toolkit percona-xtrabackup-80 sysbench
+```{.bash data-prompt="$"}
+$ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+$ sudo apt install ./percona-release_latest.generic_all.deb
+$ sudo percona-release enable-only ps-80 release
+$ sudo percona-release enable tools release
+$ sudo apt update
+$ sudo apt install percona-server-server percona-server-client percona-toolkit percona-xtrabackup-80 sysbench
 ```
 
 ### Percona Server for MySQL 8.0 release package on CentOS or other RPM-based systems:
 
-```
-sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
-sudo percona-release setup ps80
-sudo yum install percona-server-server
+```{.bash data-prompt="$"}
+$ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
+$ sudo percona-release setup ps80
+$ sudo yum install percona-server-server
 ```
 
 ### Percona Server for MongoDB 4.2 release package on Ubuntu or another DEB-based GNU/Linux distribution:
 
-```
-curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
-sudo apt install ./percona-release_latest.generic_all.deb
-sudo percona-release setup psmdb42
-sudo apt install percona-server-mongodb
+```{.bash data-prompt="$"}
+$ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+$ sudo apt install ./percona-release_latest.generic_all.deb
+$ sudo percona-release setup psmdb42
+$ sudo apt install percona-server-mongodb
 ```

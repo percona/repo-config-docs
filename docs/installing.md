@@ -15,27 +15,27 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
 
     1. Install the `curl` download utility if it's not installed already:
 
-        ``` sh
-        sudo apt update
-        sudo apt install curl 
+        ```{.bash data-prompt="$"}
+        $ sudo apt update
+        $ sudo apt install curl 
         ```
 
     2. Download the `percona-release` repository package:
 
-        ``` sh
-        curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+        ```{.bash data-prompt="$"}
+        $ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
         ```
 
     3. Install the downloaded repository package and its dependencies using `apt`:
 
-        ``` sh
-        sudo apt install gnupg2 lsb-release ./percona-release_latest.generic_all.deb
+        ```{.bash data-prompt="$"}
+        $ sudo apt install gnupg2 lsb-release ./percona-release_latest.generic_all.deb
         ```
 
     4. Refresh the local cache to update the package information:
 
-        ``` sh
-        sudo apt update
+        ```{.bash data-prompt="$"}
+        $ sudo apt update
         ```
 
     5. After installation, the *Percona* software repositories are available. You
@@ -54,16 +54,16 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
 
     Run the following command as the `root` user or with `sudo`:
 
-    ``` sh
-    sudo yum install -y https://repo.percona.com/yum/percona-release-latest.noarch.rpm
+    ```{.bash data-prompt="$"}
+    $ sudo yum install -y https://repo.percona.com/yum/percona-release-latest.noarch.rpm
     ```
 
 **Next steps**: use the `percona-release` command to [setup the
 repository](repository-location.md) that contains the Percona product that you
 intend to install:
 
-``` sh
-sudo percona-release setup <PRODUCT>
+```{.bash data-prompt="$"}
+$ sudo percona-release setup <PRODUCT>
 ```
 See [Configuring Percona Repositories with
 `percona-release`](percona-release.md) for additional information.
@@ -74,7 +74,7 @@ Next, use the operating system's package management tool to install the desired 
 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
-    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/14/installing.html#on-debian-and-ubuntu-using-apt)
+    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/apt.md)
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/apt.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/apt_repo.html)
@@ -85,7 +85,7 @@ Next, use the operating system's package management tool to install the desired 
 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-red-hat-enterprise-linux-centos)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
-    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/14/installing.html#on-red-hat-enterprise-linux-and-centos-using-yum)
+    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/yum.md)
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/yum.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/yum_repo.html)
