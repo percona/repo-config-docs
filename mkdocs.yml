@@ -12,7 +12,7 @@ edit_uri: edit/master/docs/
 
 use_directory_urls: false
 
-#Theme for Netlify builds
+# Material theme setup
 theme:
   name: material
   custom_dir: _resource/overrides
@@ -51,7 +51,7 @@ extra_css:
   - css/table-list.css
 
 extra_javascript:
-  - js/version-select.js
+  - js/promptremover.js
 
 markdown_extensions:
   - attr_list
