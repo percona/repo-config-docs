@@ -69,6 +69,7 @@ Available repositories are:
         | `pdmdb-6.0`   | Percona Distribution for MongoDB 6.0    |
         | `pdmdb-6.0.2` | Percona Distribution for MongoDB 6.0.2  |
         | `pdmdb-6.0.3` | Percona Distribution for MongoDB 6.0.3  |
+        | `pdmdb-6.0.4` | Percona Distribution for MongoDB 6.0.4  |
 
     ??? admonition "Percona Distribution for MongoDB 5.0.x"
 
@@ -107,6 +108,7 @@ Available repositories are:
         | `pdmdb-4.4.15`| Percona Distribution for MongoDB 4.4.15 |
         | `pdmdb-4.4.16`| Percona Distribution for MongoDB 4.4.16 |
         | `pdmdb-4.4.17`| Percona Distribution for MongoDB 4.4.17 |
+        | `pdmdb-4.4.18`| Percona Distribution for MongoDB 4.4.18 |
         
     ??? admonition "Percona Distribution for MongoDB 4.2.x"
 
