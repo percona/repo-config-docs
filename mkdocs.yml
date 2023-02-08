@@ -19,6 +19,8 @@ theme:
   custom_dir: _resource/overrides
   logo: _images/percona-logo.svg
   favicon: _images/percona-favicon.ico
+  font:
+    text: Poppins
   palette:
 
     # Light mode
