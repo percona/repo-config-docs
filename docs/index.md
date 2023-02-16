@@ -1,6 +1,6 @@
 # Percona Software Repositories Documentation
 
-Percona provides `apt` and `yum` package repositories of our
+Percona provides `apt` and `yum` package repositories of its
 [software](https://www.percona.com/software/) for all supported Linux
 distributions.
 
