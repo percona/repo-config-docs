@@ -1,4 +1,4 @@
-# Configuring Percona Repositories with `percona-release`
+# Configure Percona repositories with `percona-release`
 
 The `percona-release` configuration tool allows users to automatically configure
 which [Percona Software repositories](repository-location.md) are enabled or

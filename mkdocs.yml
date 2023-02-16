@@ -3,7 +3,7 @@
 site_name: Percona Software Repositories 
 site_description: Documentation
 site_author: Percona LLC
-copyright: Percona LLC, &#169; 2022
+copyright: Percona LLC, &#169; 2023
 
 site_url: 'https://www.percona.com/percona-software-repositories/'
 repo_name: /percona/repo-config-docs
@@ -114,14 +114,16 @@ extra:
 
 
 nav:
-  - index.md
+  - Home: index.md
   - Installation and update:
-    - installation-and-update.md
-    - installing.md
+    - Install percona-release: installing.md
     - updating.md
-  - Usage:
-    - usage.md
-    - percona-release.md
-    - repository-location.md
+  - Configure Percona repositories: percona-release.md
+  - Repository locations:
+    - Components: repository-location.md
+    - mysql.md
+    - mongodb.md
+    - postgresql.md
+    - tools.md
   - copyright.md
   - trademark-policy.md
