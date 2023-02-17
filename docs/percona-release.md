@@ -1,8 +1,8 @@
-# Configuring Percona Repositories with `percona-release`
+# Configure Percona repositories with `percona-release`
 
-The `percona-release` configuration tool allows users to automatically configure
-which [Percona Software repositories](repository-location.md) are enabled or
-disabled. It supports both `apt` and `yum` repositories.
+The `percona-release` configuration tool enables users to automatically
+configure which [Percona Software repositories](repository-location.md) are
+enabled or disabled. It supports both `apt` and `yum` repositories.
 
 ## Usage
 
@@ -73,7 +73,7 @@ repository locations, then enables the correct release repositories given a
 *product use*, and updates the platform’s package manager database.
 
 `<PRODUCT>` is the only parameter of this command, please refer to
-[Repostory locations](repository-location.md) for an overview of the available
+[Repository locations](repository-location.md) for an overview of the available
 product repositories.
 
 The following example disables all Percona repository locations and then
@@ -86,7 +86,7 @@ $ percona-release setup ps80
 ```
 
 In non-interactive contexts, such as in scripts, requests for extra input may
-halt the program.  Run the `setup` command with the `-y` option to provide
+halt the program. Run the `setup` command with the `-y` option to provide
 the affirmative answer where input from the user would be requested in the
 interactive mode.
 

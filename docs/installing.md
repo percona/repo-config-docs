@@ -1,4 +1,4 @@
-# Percona Software Installation
+# Install percona-release
 
 We recommend to install Percona software using the corresponding package manager
 for your system:
