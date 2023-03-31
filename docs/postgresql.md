@@ -7,6 +7,7 @@
     | Repository    | Product Packages                          |
     | ------------- | ----------------------------------------- |
     | `ppg-15`      | Percona Distribution for PostgreSQL 15    |
+    | `ppg-15.2`    | Percona Distribution for PostgreSQL 15.2  |
     | `ppg-15.1`    | Percona Distribution for PostgreSQL 15.1  |
     | `ppg-15.0`    | Percona Distribution for PostgreSQL 15.0  |
 
@@ -15,6 +16,7 @@
     | Repository    | Product Packages                          |
     | ------------- | ----------------------------------------- |
     | `ppg-14`      | Percona Distribution for PostgreSQL 14    |
+    | `ppg-14.7`    | Percona Distribution for PostgreSQL 14.7  |
     | `ppg-14.6`    | Percona Distribution for PostgreSQL 14.6  |
     | `ppg-14.5`    | Percona Distribution for PostgreSQL 14.5  |
     | `ppg-14.4`    | Percona Distribution for PostgreSQL 14.4  |
@@ -27,6 +29,7 @@
     | Repository    | Product Packages                          |
     | ------------- | ----------------------------------------- |
     | `ppg-13`      | Percona Distribution for PostgreSQL 13    |
+    | `ppg-13.10`   | Percona Distribution for PostgreSQL 13.10 |
     | `ppg-13.9`    | Percona Distribution for PostgreSQL 13.9  |
     | `ppg-13.8`    | Percona Distribution for PostgreSQL 13.8  |
     | `ppg-13.7`    | Percona Distribution for PostgreSQL 13.7  |
@@ -43,6 +46,7 @@
     | Repository    | Product Packages                          |
     | ------------- | ----------------------------------------- |
     | `ppg-12`      | Percona Distribution for PostgreSQL 12    |
+    | `ppg-12.14`   | Percona Distribution for PostgreSQL 12.14 |
     | `ppg-12.13`   | Percona Distribution for PostgreSQL 12.13 |
     | `ppg-12.12`   | Percona Distribution for PostgreSQL 12.12 |
     | `ppg-12.11`   | Percona Distribution for PostgreSQL 12.11 |
@@ -61,6 +65,7 @@
     | Repository    | Product Packages                          |
     | ------------- | ----------------------------------------- |
     | `ppg-11`      | Percona Distribution for PostgreSQL 11    |
+    | `ppg-11.19`   | Percona Distribution for PostgreSQL 11.19 |
     | `ppg-11.18`   | Percona Distribution for PostgreSQL 11.18 |
     | `ppg-11.17`   | Percona Distribution for PostgreSQL 11.17 |
     | `ppg-11.16`   | Percona Distribution for PostgreSQL 11.16 |
