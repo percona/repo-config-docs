@@ -17,6 +17,7 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-6.0`   | Percona Distribution for MongoDB 6.0    |
+    | `pdmdb-6.0.5` | Percona Distribution for MongoDB 6.0.2  |
     | `pdmdb-6.0.4` | Percona Distribution for MongoDB 6.0.4  |
     | `pdmdb-6.0.3` | Percona Distribution for MongoDB 6.0.3  |
     | `pdmdb-6.0.2` | Percona Distribution for MongoDB 6.0.2  |
@@ -26,6 +27,7 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-5.0`   | Percona Distribution for MongoDB 5.0    |
+    | `pdmdb-5.0.15`| Percona Distribution for MongoDB 5.0.15 |
     | `pdmdb-5.0.14`| Percona Distribution for MongoDB 5.0.14 |
     | `pdmdb-5.0.13`| Percona Distribution for MongoDB 5.0.13 |
     | `pdmdb-5.0.11`| Percona Distribution for MongoDB 5.0.11 |
@@ -41,6 +43,7 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-4.4`   | Percona Distribution for MongoDB 4.4    |
+    | `pdmdb-4.4.19`| Percona Distribution for MongoDB 4.4.19 |
     | `pdmdb-4.4.18`| Percona Distribution for MongoDB 4.4.18 |
     | `pdmdb-4.4.17`| Percona Distribution for MongoDB 4.4.17 |
     | `pdmdb-4.4.16`| Percona Distribution for MongoDB 4.4.16 |
@@ -64,6 +67,7 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-4.2`   | Percona Distribution for MongoDB 4.2    |
+    | `pdmdb-4.2.24`| Percona Distribution for MongoDB 4.2.24 |
     | `pdmdb-4.2.23`| Percona Distribution for MongoDB 4.2.23 |
     | `pdmdb-4.2.22`| Percona Distribution for MongoDB 4.2.22 |
     | `pdmdb-4.2.21`| Percona Distribution for MongoDB 4.2.21 |
