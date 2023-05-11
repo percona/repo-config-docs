@@ -89,13 +89,18 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]
+  - meta-descriptions:
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
 # - bootstrap-tables
   - section-index # Adds links to nodes - comment out when creating PDF
 #  - htmlproofer # Uncomment to check links - but extends build time significantly
   - macros:
         include_yaml:
 #          - 'variables.yml' # Use in markdown as '{{ VAR }}'
-
 
 extra:
   version:
