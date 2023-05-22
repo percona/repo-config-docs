@@ -17,15 +17,15 @@ default), `testing`, and `experimental` components.
 For example, to prepare your system for installation of *Percona Server for MySQL*
 8.0, run `percona-release` as follows:
 
-```
-sudo percona-release enable-only ps-80 release
+```{.bash data-prompt="$"}
+$ sudo percona-release enable-only ps-80 release
 ```
 
 To enable pre-release builds from the testing repository, run **percona-release**
 with the `testing` component.
 
-```
-sudo percona-release enable ps-80 testing
+```{.bash data-prompt="$"}
+$ sudo percona-release enable ps-80 testing
 ```
 
 This example enables installing a pre-release version of Percona Server for MySQL 8.0.

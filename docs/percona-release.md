@@ -8,7 +8,7 @@ enabled or disabled. It supports both `apt` and `yum` repositories.
 
 `percona-release` has the following syntax:
 
-```sh
+```{.bash data-prompt="$"}
 percona-release <COMMAND> (<REPOSITORY> | all) [<COMPONENT> | all]
 ```
 
