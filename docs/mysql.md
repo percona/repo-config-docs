@@ -31,6 +31,7 @@
      | `pdps-8.0.30` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.30 |
      | `pdps-8.0.31` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.31 |
      | `pdps-8.0.32` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.32 |
+     | `pdps-8.0.33` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.33 |
 
 === "Using Percona XtraDB Cluster"
 
