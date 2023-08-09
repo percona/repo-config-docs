@@ -73,11 +73,11 @@ Next, use the operating system's package management tool to install the desired 
 === "Debian and Ubuntu with the `apt` package manager"
 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu)
-    * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
+    * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html)
     * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/apt.html)
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt_repo.html)
-    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/apt.html)
-    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/apt_repo.html)
+    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/apt.html)
+    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/apt-repo.html)
     * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/apt.html#apt)
 
 
@@ -86,8 +86,8 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-red-hat-enterprise-linux-centos)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
     * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/yum.html)
-    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum_repo.html)
-    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/latest/install/yum.html)
-    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/latest/installation/yum_repo.html)
+    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum-repo.html)
+    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/yum.html)
+    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/yum-repo.html)
     * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/yum.html#yum)
 
