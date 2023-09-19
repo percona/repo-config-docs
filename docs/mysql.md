@@ -17,8 +17,8 @@
 
      | Repository    | Description                             |
      | ------------- | ------------------------------------    |
-     | `pdps-8.0`    |Percona Distribution for MySQL using Percona Server for MySQL 8.0  |
-     | `pdps-8.0.19` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.19|
+     | `pdps-8.0`    |Percona Distribution for MySQL using Percona Server for MySQL 8.0    |
+     | `pdps-8.0.19` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.19 |
      | `pdps-8.0.20` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.20 |
      | `pdps-8.0.21` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.21 |
      | `pdps-8.0.22` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.22 |
@@ -32,13 +32,14 @@
      | `pdps-8.0.31` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.31 |
      | `pdps-8.0.32` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.32 |
      | `pdps-8.0.33` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.33 |
+     | `pdps-8.0.34` |Percona Distribution for MySQL using Percona Server for MySQL 8.0.34 |
 
 === "Using Percona XtraDB Cluster"
 
      | Repository    | Description                             |
      | ------------- | ------------------------------------    |
-     | `pdpxc-8.0`   |Percona Distribution for MySQL using Percona XtraDB Cluster 8.0   |
-     | `pdpxc-8.0.19`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.19|
+     | `pdpxc-8.0`   |Percona Distribution for MySQL using Percona XtraDB Cluster 8.0    |
+     | `pdpxc-8.0.19`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.19 |
      | `pdpxc-8.0.20`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.20 |
      | `pdpxc-8.0.21`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.21 |
      | `pdpxc-8.0.22`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.22 |
@@ -51,3 +52,4 @@
      | `pdpxc-8.0.30`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.30 |
      | `pdpxc-8.0.31`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.31 |
      | `pdpxc-8.0.32`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.32 |
+     | `pdpxc-8.0.33`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.33 |
