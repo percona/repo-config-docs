@@ -2,6 +2,13 @@
 
 ## Percona Distribution for PostgreSQL
 
+=== "Version 16"
+    
+    | Repository    | Product Packages                          |
+    | ------------- | ----------------------------------------- |
+    | `ppg-16`      | Percona Distribution for PostgreSQL 16    |
+    | `ppg-16.0`    | Percona Distribution for PostgreSQL 16.0  |
+
 === "Version 15"
     
     | Repository    | Product Packages                          |
