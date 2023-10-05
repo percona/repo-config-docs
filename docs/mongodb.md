@@ -2,6 +2,7 @@
 
 | Repository    | Product Packages                        |
 | ------------- | ------------------------------------    |
+| `psmdb-70`    | Percona Server for MongoDB 7.0          |
 | `psmdb-60`    | Percona Server for MongoDB 6.0          |
 | `psmdb-50`    | Percona Server for MongoDB 5.0          |
 | `psmdb-44`    | Percona Server for MongoDB 4.4          |
