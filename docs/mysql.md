@@ -53,3 +53,4 @@
      | `pdpxc-8.0.31`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.31 |
      | `pdpxc-8.0.32`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.32 |
      | `pdpxc-8.0.33`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.33 |
+     | `pdpxc-8.0.34`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.34 |
