@@ -9,7 +9,7 @@
 | `pxc-80`          | Percona XtraDB Cluster 8.0          |
 | `pxc-57`          | Percona XtraDB Cluster 5.7          |
 | `pxc-56`          | Percona XtraDB Cluster 5.6          |
-| `pxb-81`          | Percona XtraBackup 8.1              |
+| `pxb-82`          | Percona XtraBackup 8.2              |
 | `pxb-80`          | Percona XtraBackup 8.0              |
 | `pxb-24`          | Percona XtraBackup 2.4              |
 
