@@ -13,6 +13,14 @@
 
 ## Percona Distribution for MongoDB 
 
+=== "Version 7.0.x"
+
+    | Repository    | Description                             |
+    | ------------- | ------------------------------------    |
+    | `pdmdb-7.0`   | Percona Distribution for MongoDB 7.0    |
+    | `pdmdb-7.0.4` | Percona Distribution for MongoDB 7.0.4  |
+    
+
 === "Version 6.0.x"
 
     | Repository    | Description                             |
