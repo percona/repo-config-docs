@@ -138,5 +138,6 @@ nav:
     - mongodb.md
     - postgresql.md
     - tools.md
+  - mirror.md
   - copyright.md
   - trademark-policy.md
