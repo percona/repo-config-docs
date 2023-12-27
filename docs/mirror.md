@@ -25,10 +25,10 @@ To create a local mirror of a Percona repository, you need the following softwar
 2. Create the folder where your mirror repository resides. For example, `/opt/debs/`
 
     ```{.bash data-prompt="$"}
-    $ sudo  
+    $ sudo mkdir -p /opt/debs/
     ```
 
-3. Download the .deb packages relevant to your operating system from Percona repository into your repository using `rsync`:
+3. Download the `.deb` packages relevant to your operating system from Percona repository into your repository using `rsync`:
 
     ```{.bash data-prompt="$"}
     $ rsync -avrt rsync://rsync.percona.com/rsync/<repo-name>/apt/pool/main/p/<product_name>/*.<os-version>*.deb /opt/debs/
@@ -59,7 +59,6 @@ To create a local mirror of a Percona repository, you need the following softwar
 
 
 ## On RHEL and derivatives
-
 
 1. Install the `createrepo` utility. It creates yum repositories and their metadata caches
 
@@ -96,7 +95,7 @@ To create a local mirror of a Percona repository, you need the following softwar
 5. Update the repository metadata:
 
     ```{.bash data-prompt="$"}
-    $ sudo createrepo /opt/rpms
+    $ sudo createrepo --update /opt/rpms
     ```
 
 6. Create the repository configuration file. It must meet the following criteria:
@@ -163,7 +162,7 @@ To update your local mirror, do the following:
     2. Update the repository metadata
 
         ```{.bash data-prompt="$"}
-        $ sudo createrepo /opt/rpms
+        $ sudo createrepo --update /opt/rpms
         ```
 
 !!! tip
