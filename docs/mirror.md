@@ -4,6 +4,10 @@ Enterprises introduce various security policies: for example, allow Internet acc
 
 To comply with these policies and install Percona software in your environment, a solution is to set up the local mirror of Percona repositories. This document provides instructions how to do it.
 
+!!! important
+
+    The instructions below are for AMD/Intel x64 architectures. 
+
 ## Prerequisites
 
 To create a local mirror of a Percona repository, you need the following software:
@@ -14,7 +18,7 @@ To create a local mirror of a Percona repository, you need the following softwar
     - `dpkg-dev` for Debian and Ubuntu
     - `createrepo` for RHEL and derivatives
 
-## On Debian and Ubuntu
+## Debian and Ubuntu
 
 1. Install `dpkg-dev` utility to unpack, build and upload Debian source packages.
 
@@ -39,7 +43,7 @@ To create a local mirror of a Percona repository, you need the following softwar
     ```{.bash .no-copy}
     $ rsync -avrt rsync://rsync.percona.com/rsync/pbm/apt/pool/main/p/percona-backup-mongodb/*.jammy*.deb /opt/debs/
     ```
-
+    
     Check the list of available repositories for [MySQL](mysql.md), [MongoDB](mongodb.md), [PostgreSQL](postgresql.md) and [Percona Tools](tools.md).
 
 4. Create the Packages file. This is the file that the package manager uses to retrieve the information about new and updated packages when you run `apt-get update`. Use the `dpkg-scanpackages` command:
@@ -49,16 +53,41 @@ To create a local mirror of a Percona repository, you need the following softwar
     $ dpkg-scanpackages . /dev/null > Packages
     ```
 
-5. Add your repository to the `etc/apt/sources.list` file for the package manager to find new or updated packages from your repository:
+    The command adds the latest version of the packages to the Packages file.
+
+5. Import the GPG key to sign the repository.
+
+    ```{.bash data-prompt="$"}
+    $ curl -fsSL https://github.com/percona/percona-repositories/raw/main/deb/percona-keyring.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/percona-keyring.gpg >/dev/null
+    ```
+
+6. Add your repository to the `etc/apt/sources.list` file for the package manager to find new or updated packages from your repository:
    
     ```{.bash data-prompt="$"}
     $ echo "deb [trusted=yes] file:///opt/debs ./" | sudo tee -a /etc/apt/sources.list
     ```
 
-6. Run `apt-get update` to check that the package manager can read from your repository.
+7. Run `apt-get update` to check that the package manager can read from your repository.
+
+8. (Optional) Check your mirror repository contents:
+
+    ```{.bash data-prompt="$"}
+    $ apt-cache policy percona-backup-mongodb 
+    ```
+
+    ??? example "Sample output"
+
+        ``` {.text .no-copy}
+        percona-backup-mongodb: 
+         Installed: (none) 
+         Candidate: 2.3.1-1.jammy 
+         Version table: 
+            2.3.1-1.jammy 500 
+               500 file:/opt/debs ./ Packages
+        ```
 
 
-## On RHEL and derivatives
+## RHEL and derivatives
 
 1. Install the `createrepo` utility. It creates yum repositories and their metadata caches
 
@@ -98,7 +127,13 @@ To create a local mirror of a Percona repository, you need the following softwar
     $ sudo createrepo --update /opt/rpms
     ```
 
-6. Create the repository configuration file. It must meet the following criteria:
+6. Import the GPG key to sign the repository:
+
+    ```{.bash data-prompt="$"}
+    $ curl -s https://raw.githubusercontent.com/percona/percona-repositories/release-1.0-27/rpm/RPM-GPG-KEY-Percona | sudo rpm --import -
+    ```
+
+7. Create the repository configuration file. It must meet the following criteria:
 
     * It must be located in `/etc/yum.repos.d/` 
     * It must have the extension `.repo` to be recognized by `yum`.
@@ -113,20 +148,13 @@ To create a local mirror of a Percona repository, you need the following softwar
     enabled=1
     ```
 
-7. Check the setup:
+8. Check the setup:
 
     ```{.bash data-prompt="$"}
-    $ sudo yum update
+    $ rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n'
     ```
 
-    Sample output:
-
-    ```{.text .no-copy}
-    Local Percona repository                                                                                 71 MB/s | 463 kB     00:00
-    Dependencies resolved.
-    ```
-
-## Keep the mirror up-to-date
+## Keep the mirror repository up-to-date
 
 To update your local mirror, do the following:
 
