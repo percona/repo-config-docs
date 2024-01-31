@@ -32,7 +32,13 @@ To create a local mirror of a Percona repository, you need the following softwar
     $ sudo mkdir -p /opt/debs/
     ```
 
-3. Download the `.deb` packages relevant to your operating system from Percona repository into your repository using `rsync`:
+3. Grant access to the directory for your user
+
+    ```{.bash data-prompt="$"}
+    $ sudo chmod 755 /opt/debs/
+    ```
+
+4. Download the `.deb` packages relevant to your operating system from Percona repository into your repository using `rsync`:
 
     ```{.bash data-prompt="$"}
     $ rsync -avrt rsync://rsync.percona.com/rsync/<repo-name>/apt/pool/main/p/<product_name>/*.<os-version>*.deb /opt/debs/
@@ -46,7 +52,7 @@ To create a local mirror of a Percona repository, you need the following softwar
     
     Check the list of available repositories for [MySQL](mysql.md), [MongoDB](mongodb.md), [PostgreSQL](postgresql.md) and [Percona Tools](tools.md).
 
-4. Create the Packages file. This is the file that the package manager uses to retrieve the information about new and updated packages when you run `apt-get update`. Use the `dpkg-scanpackages` command:
+5. Create the Packages file. This is the file that the package manager uses to retrieve the information about new and updated packages when you run `apt-get update`. Use the `dpkg-scanpackages` command:
 
     ```{.bash data-prompt="$"}
     $ cd /opt/debs
@@ -55,21 +61,21 @@ To create a local mirror of a Percona repository, you need the following softwar
 
     The command adds the latest version of the packages to the Packages file.
 
-5. Import the GPG key to sign the repository.
+6. Import the GPG key to sign the repository.
 
     ```{.bash data-prompt="$"}
     $ curl -fsSL https://github.com/percona/percona-repositories/raw/main/deb/percona-keyring.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/percona-keyring.gpg >/dev/null
     ```
 
-6. Add your repository to the `etc/apt/sources.list` file for the package manager to find new or updated packages from your repository:
+7. Add your repository to the `etc/apt/sources.list` file for the package manager to find new or updated packages from your repository:
    
     ```{.bash data-prompt="$"}
     $ echo "deb [trusted=yes] file:///opt/debs ./" | sudo tee -a /etc/apt/sources.list
     ```
 
-7. Run `apt-get update` to check that the package manager can read from your repository.
+8. Run `apt-get update` to check that the package manager can read from your repository.
 
-8. (Optional) Check your mirror repository contents:
+9. (Optional) Check your mirror repository contents:
 
     ```{.bash data-prompt="$"}
     $ apt-cache policy percona-backup-mongodb 
@@ -101,10 +107,10 @@ To create a local mirror of a Percona repository, you need the following softwar
     $ sudo mkdir /opt/rpms
     ```
 
-3. Create the repository metadata using `createrepo`
+3. Grant access to the directory for your user
 
     ```{.bash data-prompt="$"}
-    $ sudo createrepo /opt/rpms
+    $ sudo chmod 755 /opt/debs/
     ```
 
 4. Download RPM packages from Percona repository to your local mirror using `rsync`:
@@ -121,7 +127,7 @@ To create a local mirror of a Percona repository, you need the following softwar
     
      Check the list of available repositories for [MySQL](mysql.md), [MongoDB](mongodb.md), [PostgreSQL](postgresql.md) and [Percona Tools](tools.md).
 
-5. Update the repository metadata:
+5. Create the repository metadata using `createrepo`:
 
     ```{.bash data-prompt="$"}
     $ sudo createrepo --update /opt/rpms
@@ -130,10 +136,22 @@ To create a local mirror of a Percona repository, you need the following softwar
 6. Import the GPG key to sign the repository:
 
     ```{.bash data-prompt="$"}
-    $ curl -s https://raw.githubusercontent.com/percona/percona-repositories/release-1.0-27/rpm/RPM-GPG-KEY-Percona | sudo rpm --import -
+    $ sudo rpm --import https://raw.githubusercontent.com/percona/percona-repositories/release-1.0-27/rpm/RPM-GPG-KEY-Percona
     ```
 
-7. Create the repository configuration file. It must meet the following criteria:
+7. Check that the key has been imported successfully:
+
+    ```{.bash data-prompt="$"}
+    $ rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n'
+    ```
+
+    ??? example "Sample output"
+
+        ```{.text .no-copy}
+        gpg-pubkey-8507efa5-5b02c2fb    gpg(Percona MySQL Development Team (Packaging key) <mysql-dev@percona.com>)
+        ```
+
+8. Create the repository configuration file. It must meet the following criteria:
 
     * It must be located in `/etc/yum.repos.d/` 
     * It must have the extension `.repo` to be recognized by `yum`.
@@ -151,8 +169,16 @@ To create a local mirror of a Percona repository, you need the following softwar
 8. Check the setup:
 
     ```{.bash data-prompt="$"}
-    $ rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n'
+    $ sudo yum repolist
     ```
+
+    ??? example "Sample output"
+
+        ```{.text .no-copy}
+        percona-local                       Local Percona repository
+        ```
+
+    
 
 ## Keep the mirror repository up-to-date
 
