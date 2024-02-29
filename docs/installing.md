@@ -8,7 +8,7 @@ for your system:
 
 Find information about supported platforms on the [Percona Release Lifecycle Overview](https://www.percona.com/services/policies/percona-software-support-lifecycle#support).
 
-=== "Installation on Debian and Ubuntu Linux"
+=== ":material-debian: On Debian and Ubuntu"
 
     If you are running a DEB-based distribution, such as Debian or Ubuntu Linux, use
     the **apt** package manager to install the `percona-release` official package:
@@ -46,7 +46,7 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
     
             If you have enabled another repository, the file name will be different.
 
-=== "Installation on Red Hat Enterprise Linux and compatible derivatives"
+=== ":material-redhat: On Red Hat Enterprise Linux and compatible derivatives"
 
     If you are running an RPM-based Linux distribution, such as Red Hat Enterprise
     Linux or compatible derivatives, use the `yum` package manager to install
@@ -70,7 +70,7 @@ See [Configuring Percona Repositories with
 
 Next, use the operating system's package management tool to install the desired product package.
 
-=== "Debian and Ubuntu with the `apt` package manager"
+=== ":material-debian: Debian and Ubuntu"
 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html)
@@ -81,7 +81,7 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/apt.html#apt)
 
 
-=== "Red Hat Enterprise Linux and derivatives with the `yum` package manager"
+=== ":material-redhat: Red Hat Enterprise Linux and derivatives"
 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-red-hat-enterprise-linux-centos)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
