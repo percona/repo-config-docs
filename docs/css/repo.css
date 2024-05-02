@@ -1,0 +1,65 @@
+:root {
+    --md-primary-fg-color--dark: var(--sunrise700)
+}
+.md-header,
+.md-tabs {
+    background:
+        -o-linear-gradient(
+            340deg,
+            rgba(0,0,0,0.1) 33%,
+            rgba(0,0,0,0.2) 95%
+        ),
+        -o-linear-gradient(
+            340deg,
+            rgb(132,98,30) 33%,
+            rgb(240,179,54) 95%
+        );
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.1) 33%,
+            rgba(0,0,0,0.2) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(132,98,30) 33%,
+            rgb(240,179,54) 95%
+        );
+}
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title[for=“__drawer”],
+    .md-nav--primary .md-nav__title {
+        background:
+            -o-linear-gradient(
+                340deg,
+                rgba(0,0,0,0.1) 33%,
+                rgba(0,0,0,0.2) 95%
+            ),
+            -o-linear-gradient(
+                340deg,
+                rgb(132,98,30) 33%,
+                rgb(240,179,54) 95%
+            );
+        background:
+            linear-gradient(
+                110deg,
+                rgba(0,0,0,0.1) 33%,
+                rgba(0,0,0,0.2) 95%
+            ),
+            linear-gradient(
+                110deg,
+                rgb(132,98,30) 33%,
+                rgb(240,179,54) 95%
+            );
+    }
+}
+.superNav,
+.md-nav__source {
+    background-color: rgb(132,98,30);
+    background-image:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.25) 33%,
+            rgba(0,0,0,0.25) 95%
+        );
+}
