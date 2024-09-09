@@ -2,6 +2,7 @@
 
 | Repository         | Product Packages                    |
 | ------------------ | ----------------------------------- |
+| `ps-84-lts`        | Percona Server for MySQL 8.4        |
 | `ps-8x-innovation` | Percona Server for MySQL 8.3        |
 | `ps-80`            | Percona Server for MySQL 8.0        |
 | `ps-57`            | Percona Server for MySQL 5.7        |
@@ -9,6 +10,7 @@
 | `pxc-80`           | Percona XtraDB Cluster 8.0          |
 | `pxc-57`           | Percona XtraDB Cluster 5.7          |
 | `pxc-56`           | Percona XtraDB Cluster 5.6          |
+| `pxb-84-lts`       | Percona XtraBackup 8.4              |
 | `pxb-8x-innovation`| Percona XtraBackup 8.3              |
 | `pxb-80`           | Percona XtraBackup 8.0              |
 | `pxb-24`           | Percona XtraBackup 2.4              |
