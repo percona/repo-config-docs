@@ -1,6 +1,6 @@
 # Install percona-release
 
-We recommend to install Percona software using the corresponding package manager
+We recommend installing Percona software using the corresponding package manager
 for your system:
 
 * **apt** for Debian and Ubuntu Linux
@@ -78,7 +78,7 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt_repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/apt.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/apt-repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/apt.html#apt)
+    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/apt.html#apt)
 
 
 === ":material-redhat: Red Hat Enterprise Linux and derivatives"
@@ -89,5 +89,5 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum-repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/yum.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/yum-repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/install/yum.html#yum)
+    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/yum.html#yum)
 
