@@ -2,6 +2,7 @@
 
 | Repository    | Product Packages                        |
 | ------------- | ------------------------------------    |
+| `psmdb-80`    | Percona Server for MongoDB 8.0          |
 | `psmdb-70`    | Percona Server for MongoDB 7.0          |
 | `psmdb-60`    | Percona Server for MongoDB 6.0          |
 | `psmdb-50`    | Percona Server for MongoDB 5.0          |
@@ -18,6 +19,7 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-7.0`   | Percona Distribution for MongoDB 7.0    |
+    | `pdmdb-7.0.15` | Percona Distribution for MongoDB 7.0.15|
     | `pdmdb-7.0.14` | Percona Distribution for MongoDB 7.0.14|
     | `pdmdb-7.0.12` | Percona Distribution for MongoDB 7.0.12|
     | `pdmdb-7.0.11` | Percona Distribution for MongoDB 7.0.11|
@@ -32,6 +34,8 @@
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
     | `pdmdb-6.0`   | Percona Distribution for MongoDB 6.0    |
+    | `pdmdb-6.0.19` | Percona Distribution for MongoDB 6.0.19|
+    | `pdmdb-6.0.18` | Percona Distribution for MongoDB 6.0.18|
     | `pdmdb-6.0.17` | Percona Distribution for MongoDB 6.0.17|
     | `pdmdb-6.0.16` | Percona Distribution for MongoDB 6.0.16|
     | `pdmdb-6.0.15` | Percona Distribution for MongoDB 6.0.15|
@@ -46,7 +50,7 @@
     | `pdmdb-6.0.3` | Percona Distribution for MongoDB 6.0.3  |
     | `pdmdb-6.0.2` | Percona Distribution for MongoDB 6.0.2  |
 
-=== "Version 5.0.x"
+=== "Version 5.0.x (EOL)"
 
     | Repository    | Description                             |
     | ------------- | ------------------------------------    |
