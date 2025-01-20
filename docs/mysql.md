@@ -7,6 +7,7 @@
 | `ps-80`            | Percona Server for MySQL 8.0        |
 | `ps-57`            | Percona Server for MySQL 5.7        |
 | `ps-56`            | Percona Server for MySQL 5.6        |
+| `pxc-84-lts`       | Percona XtraDB Cluster 8.4          |
 | `pxc-80`           | Percona XtraDB Cluster 8.0          |
 | `pxc-57`           | Percona XtraDB Cluster 5.7          |
 | `pxc-56`           | Percona XtraDB Cluster 5.6          |
@@ -21,6 +22,7 @@
      
      | Repository          | Description                                                              |
      | ------------------- | ---------------------------------------------------------------------    |
+     | `pdps-84-lts`       |Percona Distribution for MySQL using Percona Server for MySQL 8.4.0       |
      | `pdps-8x-innovation`|Percona Distribution for MySQL using Percona Server for MySQL 8.3.0       |
      | `pdps-8.0`          |Percona Distribution for MySQL using Percona Server for MySQL 8.0         |
      | `pdps-8.0.19`       |Percona Distribution for MySQL using Percona Server for MySQL 8.0.19      |
@@ -45,6 +47,7 @@
 
      | Repository    | Description                             |
      | ------------- | ------------------------------------    |
+     | `pdpxc-84-lts`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.4    |
      | `pdpxc-8.0`   |Percona Distribution for MySQL using Percona XtraDB Cluster 8.0    |
      | `pdpxc-8.0.19`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.19 |
      | `pdpxc-8.0.20`|Percona Distribution for MySQL using Percona XtraDB Cluster 8.0.20 |
