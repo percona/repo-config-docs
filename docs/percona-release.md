@@ -35,7 +35,7 @@ For example, the following command enables the `ps-80 release` repository
 location:
 
 ```{.bash data-prompt="$"}
-$ sudo percona-release enable ps-80 release
+$ sudo percona-release enable ps-84-lts release
 ```
 
 
@@ -82,7 +82,7 @@ command runs in the interactive mode and may request extra input from you,
 depending on your platform.
 
 ```{.bash data-prompt="$"}
-$ percona-release setup ps80
+$ percona-release setup ps-84-lts
 ```
 
 In non-interactive contexts, such as in scripts, requests for extra input may
@@ -91,43 +91,45 @@ the affirmative answer where input from the user would be requested in the
 interactive mode.
 
 ```{.bash data-prompt="$"}
-$ percona-release setup -y ps80
+$ percona-release setup -y ps-84-lts
 ```
 ## Examples: All steps for installing a specific Percona product
 
-### Percona XtraDB Cluster 8.0 on CentOS 7:
+### Percona XtraDB Cluster 8.4 on RHEL 9:
 
 ```{.bash data-prompt="$"}
 $ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
-$ sudo percona-release enable-only pxc-80 release
-$ sudo percona-release enable tools release
-$ sudo yum install percona-xtradb-cluster
+$ sudo percona-release enable-only pxc-84-lts release
+$ sudo yum install percona-xtrabackup-84
 ```
 
-### Percona Server for MySQL 8.0, Percona Toolkit, Percona XtraBackup and Sysbench on Ubuntu 18.04:
+### Percona Server for MySQL 8.0, Percona Toolkit, and Sysbench on Ubuntu 24.04:
 
 ```{.bash data-prompt="$"}
-$ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
-$ sudo apt install ./percona-release_latest.generic_all.deb
-$ sudo percona-release enable-only ps-80 release
-$ sudo percona-release enable tools release
 $ sudo apt update
-$ sudo apt install percona-server-server percona-server-client percona-toolkit percona-xtrabackup-80 sysbench
+$ sudo apt install curl
+$ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+$ sudo apt install gnupg2 lsb-release ./percona-release_latest.generic_all.deb
+$ sudo apt update
+$ sudo percona-release enable-only ps-84-lts release
+$ sudo percona-release enable pt release
+$ sudo apt install percona-server-server percona-toolkit  sysbench
 ```
 
-### Percona Server for MySQL 8.0 release package on CentOS or other RPM-based systems:
+### Percona Server for MySQL 8.4 release package on RPM-based systems:
 
 ```{.bash data-prompt="$"}
 $ sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
-$ sudo percona-release setup ps80
+$ sudo percona-release setup ps-84-lts
+$ sudo percona-release enable ps-84-lts release
 $ sudo yum install percona-server-server
 ```
 
-### Percona Server for MongoDB 4.2 release package on Ubuntu or another DEB-based GNU/Linux distribution:
+### Percona Server for MongoDB 8.0 release package on Ubuntu or another DEB-based GNU/Linux distribution:
 
 ```{.bash data-prompt="$"}
-$ curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
-$ sudo apt install ./percona-release_latest.generic_all.deb
-$ sudo percona-release setup psmdb42
+$ wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+$ sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
+$ sudo percona-release setup psmdb-80 release
 $ sudo apt install percona-server-mongodb
 ```
