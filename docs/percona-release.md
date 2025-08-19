@@ -9,7 +9,7 @@ enabled or disabled. It supports both `apt` and `yum` repositories.
 `percona-release` has the following syntax:
 
 ```{.bash data-prompt="$"}
-percona-release <COMMAND> (<REPOSITORY> | all) [<COMPONENT> | all]
+percona-release <COMMAND> (<REPOSITORY> | all) [<COMPONENT> | all] [<FLAGS>]
 ```
 
 Run all commands as the root user or via `sudo`. 
@@ -93,6 +93,28 @@ interactive mode.
 ```{.bash data-prompt="$"}
 $ percona-release setup -y ps-84-lts
 ```
+
+### Flags
+
+Available flags are: [`--scheme`](#scheme)
+
+#### `--scheme`
+
+The `--scheme` flag enables you to choose what protocol to use when enabling repositories. Available options are HTTP and HTTPS. Default value is HTTP.
+
+This flag is useful when you want to use HTTPS for security reasons or when your environment requires it.
+
+For example, to use `https` when accessing the repository URL, run the following command:
+
+```{.bash data-prompt="$"}
+$ sudo percona-release enable ps-84-lts release --scheme https
+```
+
+If no `--scheme` flag is specified, the default HTTP protocol is used. 
+
+You can use this flag with the `enable`, `enable-only`, `disable`, and `setup` commands.
+
+
 ## Examples: All steps for installing a specific Percona product
 
 ### Percona XtraDB Cluster 8.4 on RHEL 9:
