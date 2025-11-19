@@ -61,7 +61,6 @@ theme:
     - navigation.top
     - navigation.tracking 
 
-
 #Styling
 extra_css:
   - https://unicons.iconscout.com/release/v3.0.3/css/line.css
@@ -71,10 +70,12 @@ extra_css:
   - css/osano.css
   - css/repo.css
   - css/extra.css
+  - css/rating.css
 
 extra_javascript:
   - js/promptremover.js
   - js/consent.js
+  - js/rating.js
 
 markdown_extensions:
   abbr: {}
@@ -121,6 +122,10 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: percona/repo-config-docs
+      branch: "master" 
   - meta-descriptions:
       export_csv: false
       quiet: false
@@ -140,19 +145,6 @@ extra:
   analytics:
     provider: google
     property: G-J4J70BNH0G
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Want to improve this page? Click  <strong>Edit this page on GitHub</strong> above to submit a pull request.
   
 nav:
   - Home: index.md
