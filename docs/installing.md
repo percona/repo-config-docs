@@ -75,7 +75,7 @@ Next, use the operating system's package management tool to install the desired 
     * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu)
     * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html)
     * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/apt.html)
-    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt_repo.html)
+    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt-repo.html)
     * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/apt.html)
     * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/apt-repo.html)
     * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/apt.html#apt)
