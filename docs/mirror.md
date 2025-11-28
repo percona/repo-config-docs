@@ -178,43 +178,43 @@ To update your local mirror, do the following:
 
 === "Debian and Ubuntu"
 
-    1. Download new packages relevant to your operating system from Percona repository
+1. Download new packages relevant to your operating system from Percona repository
 
-        ```{.bash data-prompt="$"}
-        $ rsync -avrt rsync://rsync.percona.com/rsync/<repo-name>/apt/pool/main/p/<product_name>/*.<os-version>*.deb /opt/debs/
-        ```
+    ```{.bash data-prompt="$"}
+    $ rsync -avrt rsync://rsync.percona.com/rsync/<repo-name>/apt/pool/main/p/<product_name>/*.<os-version>*.deb /opt/debs/
+    ```
 
-    2. Update the Packages file.
+2. Update the Packages file.
 
-        ```{.bash data-prompt="$"}
-        $ cd /opt/debs
-        dpkg-scanpackages . /dev/null > Packages
-        ```
+    ```{.bash data-prompt="$"}
+    $ cd /opt/debs
+    dpkg-scanpackages . /dev/null > Packages
+    ```
 
-    3. Update the local cache.
+3. Update the local cache.
 
-        ```{.bash data-prompt="$"}
-        $ apt update
-        ```
+    ```{.bash data-prompt="$"}
+    $ apt update
+    ```
 
 === "RHEL and derivatives"
 
-    1. Download new packages from Percona repository
+1. Download new packages from Percona repository
 
-        ```{.bash data-prompt="$"}
-        $ rsync -avrt rsync://rsync.percona.com/rsync/<repo_name>/yum/release/<os_version>/RPMS/x86_64/ /opt/rpms/
-        ```
+    ```{.bash data-prompt="$"}
+    $ rsync -avrt rsync://rsync.percona.com/rsync/<repo_name>/yum/release/<os_version>/RPMS/x86_64/ /opt/rpms/
+    ```
 
-    2. Update the repository metadata
+2. Update the repository metadata
 
-        ```{.bash data-prompt="$"}
-        $ sudo createrepo --update /opt/rpms
-        ```
+    ```{.bash data-prompt="$"}
+    $ sudo createrepo --update /opt/rpms
+    ```
 
 !!! tip
 
-    You can automate the download process by adding the task to `crontab`.
+You can automate the download process by adding the task to `crontab`.
 
 !!! admonition ""
 
-    Based on the blog post [How to Create Your Own Repositories for Packages](https://www.percona.com/blog/how-to-create-your-own-repositories-for-packages/) by *Evgeniy Patlan*
+Based on the blog post [How to Create Your Own Repositories for Packages](https://www.percona.com/blog/how-to-create-your-own-repositories-for-packages/) by *Evgeniy Patlan*
