@@ -3,7 +3,7 @@
 site_name: Percona Software Repositories 
 site_description: Documentation
 site_author: Percona LLC
-copyright: Percona LLC, &#169; 2024
+copyright: Percona LLC, &#169; 2026
 
 site_url: 'https://docs.percona.com/percona-software-repositories/'
 repo_name: /percona/repo-config-docs
