@@ -1,5 +1,11 @@
 # MySQL software repositories
 
+!!! important
+
+    Percona repositories are not enabled automatically beyond the selected product repository.
+
+    Ensure that all required repositories for your environment are explicitly enabled. Missing repositories may result in incomplete installations or missing dependencies.
+
 | Repository         | Product Packages                    |
 | ------------------ | ----------------------------------- |
 | `ps-84-lts`        | Percona Server for MySQL 8.4        |

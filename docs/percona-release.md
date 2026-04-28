@@ -12,19 +12,20 @@ enabled or disabled. It supports both `apt` and `yum` repositories.
 percona-release <COMMAND> (<REPOSITORY> | all) [<COMPONENT> | all] [<FLAGS>]
 ```
 
-Run all commands as the root user or via `sudo`. 
+Run all commands as the root user or via `sudo`.
 
 ### Commands
 
 Available commands are [enable](#enable), [enable-only](#enable-only), [disable](#disable), [setup](#setup) and [show](#show).
 
 !!! important
+    Percona repositories are not enabled automatically beyond the selected product repository.
 
-    Some repositories (such as `tools`) are no longer enabled automatically.
-
+    Commands such as `enable-only` and `setup` disable other repositories. 
+    
     If required repositories are not enabled, package installation may fail or result in missing dependencies.
 
-    Ensure that all required repositories for your product are explicitly enabled.
+    Ensure that all required repositories for your environment are explicitly enabled.
 
 #### `show`
 
@@ -33,7 +34,6 @@ The command shows the enabled repositories in your system:
 ```{.bash data-prompt="$"}
 $ sudo percona-release show
 ```
-
 
 #### `enable`
 
@@ -45,8 +45,7 @@ location:
 $ sudo percona-release enable ps-84-lts release
 ```
 
-
-#### `enable-only` 
+#### `enable-only`
 
 This command turns off all Percona repository locations, and
 enables the listed repository location after that. The following example first
@@ -56,7 +55,6 @@ experimental`:
 ```{.bash data-prompt="$"}
 $ sudo percona-release enable-only psmdb-40 experimental
 ```
-
 
 #### `disable`
 
