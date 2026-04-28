@@ -16,10 +16,17 @@ Run all commands as the root user or via `sudo`.
 
 ### Commands
 
-Available commands are [enable](#enable), [enable-only](#enable-only), [disable](#disable), [setup](#setup) and [show](#show):
+Available commands are [enable](#enable), [enable-only](#enable-only), [disable](#disable), [setup](#setup) and [show](#show).
 
+!!! important
 
-#### `show` 
+    Some repositories (such as `tools`) are no longer enabled automatically.
+
+    If required repositories are not enabled, package installation may fail or result in missing dependencies.
+
+    Ensure that all required repositories for your product are explicitly enabled.
+
+#### `show`
 
 The command shows the enabled repositories in your system:
 
