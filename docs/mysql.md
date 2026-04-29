@@ -2,9 +2,15 @@
 
 !!! important
 
-    Percona repositories are not enabled automatically beyond the selected product repository.
+    The `telemetry` repository is enabled by default.
 
-    Ensure that all required repositories for your environment are explicitly enabled. Missing repositories may result in incomplete installations or missing dependencies.
+    Other Percona repositories are not enabled automatically beyond the selected product repository.
+
+    Commands such as `enable-only` and `setup` disable other repositories.
+
+    If required repositories are not enabled, package installation may fail or result in missing dependencies.
+
+    Ensure that all required repositories for your environment are explicitly enabled.
 
 | Repository         | Product Packages                    |
 | ------------------ | ----------------------------------- |
