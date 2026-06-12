@@ -33,6 +33,9 @@ The command shows the enabled repositories in your system:
 $ sudo percona-release show
 ```
 
+!!! note
+    The command shows enabled repositories, not available packages.
+
 #### `enable`
 
 The command turns on an additional Percona [repository location](repository-location.md).
