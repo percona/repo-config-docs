@@ -29,4 +29,3 @@ $ sudo percona-release enable ps-84-lts testing
 ```
 
 This example enables installing a pre-release version of Percona Server for MySQL 8.4.
-
