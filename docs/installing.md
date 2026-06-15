@@ -1,12 +1,14 @@
 # Install percona-release
 
-We recommend installing Percona software using the corresponding package manager
+It is recommended to install Percona software using the corresponding package manager
 for your system:
 
 * **apt** for Debian and Ubuntu Linux
 * **yum** for Red Hat Enterprise Linux and compatible derivatives (including CentOS, Oracle Linux, Amazon Linux AMI, etc.)
 
-Find information about supported platforms on the [Percona Release Lifecycle Overview](https://www.percona.com/services/policies/percona-software-support-lifecycle#support).
+You can find information about the supported platforms on the [Percona Release Lifecycle Overview :octicons-link-external-16:](https://www.percona.com/services/policies/percona-software-support-lifecycle#support) page.
+
+## 1. Choose your package manager
 
 === ":material-debian: On Debian and Ubuntu"
 
@@ -43,7 +45,6 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
     `/etc/apt/sources.list.d/percona-original-release.list` file.
 
         !!! note
-    
             If you have enabled another repository, the file name will be different.
 
 === ":material-redhat: On Red Hat Enterprise Linux and compatible derivatives"
@@ -58,36 +59,37 @@ Find information about supported platforms on the [Percona Release Lifecycle Ove
     $ sudo yum install -y https://repo.percona.com/yum/percona-release-latest.noarch.rpm
     ```
 
-**Next steps**: use the `percona-release` command to [setup the
-repository](repository-location.md) that contains the Percona product that you
-intend to install:
+## 2. Set up the repository
+
+Use the `percona-release` command to [setup the repository](repository-location.md) that contains the Percona product that you intend to install:
 
 ```{.bash data-prompt="$"}
 $ sudo percona-release setup <PRODUCT>
 ```
-See [Configuring Percona Repositories with
-`percona-release`](percona-release.md) for additional information.
 
-Next, use the operating system's package management tool to install the desired product package.
+!!! note
+    See [Configuring Percona Repositories with `percona-release`](percona-release.md) for additional information.
+
+## 3. Install the product package
+
+Use the operating system's package management tool to install the desired product package.
 
 === ":material-debian: Debian and Ubuntu"
 
-    * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu)
-    * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html)
-    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/apt.html)
-    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/apt-repo.html)
-    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/apt.html)
-    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/apt-repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/apt.html#apt)
-
+    * [Percona Distribution for MongoDB :octicons-link-external-16:](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-debian-ubuntu) (EOL)
+    * [Percona Distribution for MySQL :octicons-link-external-16:](https://docs.percona.com/percona-distribution-for-mysql/{{ppmysqllatest}}/installing.html)
+    * [Percona Distribution for PostgreSQL :octicons-link-external-16:](https://docs.percona.com/postgresql/{{ppglatest}}/apt.html)
+    * [Percona Server for MySQL :octicons-link-external-16:](https://docs.percona.com/percona-server/{{ppsmysqllatest}}/apt-repo.html)
+    * [Percona Server for MongoDB :octicons-link-external-16:](https://docs.percona.com/percona-server-for-mongodb/{{ppserverlatest}}/install/apt.html)
+    * [Percona XtraBackup :octicons-link-external-16:](https://docs.percona.com/percona-xtrabackup/{{pxtralatest}}/apt-repo.html)
+    * [Percona XtraDB Cluster :octicons-link-external-16:](https://docs.percona.com/percona-xtradb-cluster/{{pxtraclusterlatest}}/apt.html)
 
 === ":material-redhat: Red Hat Enterprise Linux and derivatives"
 
-    * [Percona Distribution for MongoDB](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-red-hat-enterprise-linux-centos)
-    * [Percona Distribution for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html#install-pdmysql)
-    * [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/15/yum.html)
-    * [Percona Server for MySQL](https://docs.percona.com/percona-server/latest/installation/yum-repo.html)
-    * [Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/install/yum.html)
-    * [Percona XtraBackup](https://docs.percona.com/percona-xtrabackup/8.0/yum-repo.html)
-    * [Percona XtraDB Cluster](https://docs.percona.com/percona-xtradb-cluster/8.0/yum.html#yum)
-
+    * [Percona Distribution for MongoDB :octicons-link-external-16:](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html#install-on-red-hat-enterprise-linux-centos) (EOL)
+    * [Percona Distribution for MySQL :octicons-link-external-16:](https://docs.percona.com/percona-distribution-for-mysql/{{ppmysqllatest}}/installing.html)
+    * [Percona Distribution for PostgreSQL :octicons-link-external-16:](https://docs.percona.com/postgresql/{{ppglatest}}/yum.html)
+    * [Percona Server for MySQL :octicons-link-external-16:](https://docs.percona.com/percona-server/{{ppsmysqllatest}}/yum-repo.html)
+    * [Percona Server for MongoDB :octicons-link-external-16:](https://docs.percona.com/percona-server-for-mongodb/{{ppserverlatest}}/install/yum.html)
+    * [Percona XtraBackup :octicons-link-external-16:](https://docs.percona.com/percona-xtrabackup/{{pxtralatest}}/yum-repo.html)
+    * [Percona XtraDB Cluster :octicons-link-external-16:](https://docs.percona.com/percona-xtradb-cluster/{{pxtraclusterlatest}}/yum.html)

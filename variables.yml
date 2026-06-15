@@ -1,0 +1,8 @@
+#Variables used throughout the docs
+
+ppglatest: '18'
+ppserverlatest: '8.0'
+ppmysqllatest: '8.4'
+ppsmysqllatest: '8.4'
+pxtralatest: '8.4'
+pxtraclusterlatest: '8.4'
