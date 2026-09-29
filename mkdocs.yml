@@ -71,11 +71,13 @@ extra_css:
   - css/repo.css
   - css/extra.css
   - css/rating.css
+  - css/kapa.css
 
 extra_javascript:
   - js/promptremover.js
   - js/consent.js
   - js/rating.js
+  - js/kapa.js
 
 markdown_extensions:
   abbr: {}
