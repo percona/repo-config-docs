@@ -15,17 +15,17 @@ default), `testing`, and `experimental` components.
 | `experimental`| Hosts alpha and beta releases of products |
 
 For example, to prepare your system for installation of *Percona Server for MySQL*
-8.4, run `percona-release` as follows:
+9.7, run `percona-release` as follows:
 
 ```{.bash data-prompt="$"}
-$ sudo percona-release enable-only ps-84-lts release
+$ sudo percona-release enable-only ps-97-lts release
 ```
 
 To enable pre-release builds from the testing repository, run **percona-release**
 with the `testing` component.
 
 ```{.bash data-prompt="$"}
-$ sudo percona-release enable ps-84-lts testing
+$ sudo percona-release enable ps-97-lts testing
 ```
 
-This example enables installing a pre-release version of Percona Server for MySQL 8.4.
+This example enables installing a pre-release version of Percona Server for MySQL 9.7.
