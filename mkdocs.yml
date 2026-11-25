@@ -166,10 +166,10 @@ plugins:
         - Percona XtraDB Cluster: `pxc-97-lts`, `pxc-84-lts`, `pxc-80`
         - Percona XtraBackup: `pxb-97-lts`, `pxb-84-lts`, `pxb-80`
         - Percona Distribution for MySQL: `pdps-97-lts`, `pdpxc-97-lts`, `pdps-84-lts`, `pdpxc-84-lts`, `pdps-8.0`, `pdpxc-8.0`
-        - Percona Server for MongoDB: `psmdb-83`, `psmdb-80`, `psmdb-70`, `psmdb-60`; Percona Distribution for MongoDB 8.0: `pdmdb-8.0`
-        - Percona Backup for MongoDB: `pbm`
-        - Percona Distribution for PostgreSQL: `ppg-18`, `ppg-17`, `ppg-16`, `ppg-15`, `ppg-14` (and minor versions such as `ppg-17.2`)
-        - Tools: `pt` (Percona Toolkit), `pmm3-client`, `pmm2-client`, `proxysql`, `mysql-shell`, `sysbench`, `valkey`, `pcsm`
+        - Percona Server for MongoDB: `psmdb-83`, `psmdb-80`, `psmdb-70`, `psmdb-60`; Percona Distribution for MongoDB: `pdmdb-7.0`, `pdmdb-6.0`
+        - Percona Backup for MongoDB: `pbm`; Percona ClusterSync for MongoDB: `pcsm`
+        - Percona Distribution for PostgreSQL: `ppg-19`, `ppg-18`, `ppg-17`, `ppg-16`, `ppg-15`, `ppg-14` (and minor versions such as `ppg-17.2`)
+        - Tools: `pt` (Percona Toolkit), `pmm3-client`, `pmm2-client`, `proxysql`, `mysql-shell`, `sysbench`, `valkey-91` (Percona Packages for Valkey 9.1)
 
         Each page below is also available as markdown. For the documentation of
         all Percona products, see https://docs.percona.com/llms.txt.
