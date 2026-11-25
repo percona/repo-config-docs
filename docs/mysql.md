@@ -7,12 +7,12 @@
 | `ps-8x-innovation` | Percona Server for MySQL 8.3        |
 | `ps-80`            | Percona Server for MySQL 8.0        |
 | `ps-57`            | Percona Server for MySQL 5.7        |
-| `pxc-9.7-lts`      | Percona XtraDB Cluster 9.7          |
+| `pxc-97-lts`       | Percona XtraDB Cluster 9.7          |
 | `pxc-84-lts`       | Percona XtraDB Cluster 8.4          |
 | `pxc-80`           | Percona XtraDB Cluster 8.0          |
 | `pxc-57`           | Percona XtraDB Cluster 5.7          |
 | `pxc-56`           | Percona XtraDB Cluster 5.6          |
-| `pxb-9.7-lts`      | Percona XtraBackup 9.7              |
+| `pxb-97-lts`       | Percona XtraBackup 9.7              |
 | `pxb-84-lts`       | Percona XtraBackup 8.4              |
 | `pxb-8x-innovation`| Percona XtraBackup 8.3              |
 | `pxb-80`           | Percona XtraBackup 8.0              |
