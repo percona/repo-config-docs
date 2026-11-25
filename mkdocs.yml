@@ -1,7 +1,7 @@
 # MkDocs configuration for builds with material theme
 
 site_name: Percona Software Repositories 
-site_description: Documentation
+site_description: How to install Percona software from repo.percona.com with percona-release, and the names of its repositories
 site_author: Percona LLC
 copyright: Percona LLC, &#169; 2026
 
@@ -144,7 +144,33 @@ plugins:
   # percona-llmstxt fills in the sections (from nav), base_url and the rest.
   - llmstxt:
       full_output: llms-full.txt
-      markdown_description: >-
+      markdown_description: |
+        Percona packages for apt and yum are installed from repo.percona.com.
+        The percona-release tool turns its repositories on and off.
+
+        Quick start:
+
+        1. Install percona-release.
+           Debian and Ubuntu: `curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb`, then `sudo apt install gnupg2 lsb-release ./percona-release_latest.generic_all.deb` and `sudo apt update`.
+           RHEL and derivatives: `sudo yum install -y https://repo.percona.com/yum/percona-release-latest.noarch.rpm`.
+        2. Enable the repository of the product: `sudo percona-release setup <repository>`, for example `sudo percona-release setup ps-84-lts`.
+           `setup` doesn't enable the Percona Server for MySQL 9.7 repository; use `sudo percona-release enable-only ps-97-lts release` instead.
+           `setup` and `enable-only` turn off the other Percona repositories; `enable` adds one; `show` lists the enabled ones.
+        3. Install the packages with apt or yum.
+
+        A repository location is a repository plus a component: `release` (GA packages, the default), `testing` (release candidates) or `experimental` (alpha and beta builds), for example `sudo percona-release enable ps-97-lts testing`.
+
+        Repository names:
+
+        - Percona Server for MySQL: `ps-97-lts`, `ps-84-lts`, `ps-80`
+        - Percona XtraDB Cluster: `pxc-97-lts`, `pxc-84-lts`, `pxc-80`
+        - Percona XtraBackup: `pxb-97-lts`, `pxb-84-lts`, `pxb-80`
+        - Percona Distribution for MySQL: `pdps-97-lts`, `pdpxc-97-lts`, `pdps-84-lts`, `pdpxc-84-lts`, `pdps-8.0`, `pdpxc-8.0`
+        - Percona Server for MongoDB: `psmdb-83`, `psmdb-80`, `psmdb-70`, `psmdb-60`; Percona Distribution for MongoDB 8.0: `pdmdb-8.0`
+        - Percona Backup for MongoDB: `pbm`
+        - Percona Distribution for PostgreSQL: `ppg-18`, `ppg-17`, `ppg-16`, `ppg-15`, `ppg-14` (and minor versions such as `ppg-17.2`)
+        - Tools: `pt` (Percona Toolkit), `pmm3-client`, `pmm2-client`, `proxysql`, `mysql-shell`, `sysbench`, `valkey`, `pcsm`
+
         Each page below is also available as markdown. For the documentation of
         all Percona products, see https://docs.percona.com/llms.txt.
       sections: {}
